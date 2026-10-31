@@ -1,6 +1,6 @@
-# Paper package: brain-tumor segmentation with LoRA-adapted EfficientSAM
+# Results (archived): brain-tumor segmentation with LoRA-adapted EfficientSAM
 
-Frozen on 2026-10-05. Everything needed to write the paper: method, data protocol,
+Frozen on 2026-10-05. Method, data protocol,
 results with statistics, the full experiment log, figures, raw per-epoch data, the
 final checkpoint and a code snapshot. Experiments are concluded; the final model is
 `img512_intaug_vits_hybrid_vsds` (seed 42).
@@ -43,10 +43,4 @@ paper_final/
 │                                uncertainty_stats.{md,json} (MC-Dropout analysis)
 ├── experiment_data/<run>/       per run: config.json, metrics.csv (every epoch), test.json,
 │                                uncertainty_report*.json (per-image results), train.log, samples.png
-├── model/                       final_best.pt (+ sha256), final_config.json
-└── code/                        med_seg_code_snapshot.tar.gz, snapshot_contents.txt
 ```
-
-The live project (with the dataset, all checkpoints and the EfficientSAM weights) is
-`~/elite/PET/med_seg/` in WSL Ubuntu; nothing there was moved or changed by making this
-package.
