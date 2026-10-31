@@ -14,10 +14,17 @@ GitHub release notes.
 - Project website in `docs/`: abstract, method, interactive results chart, interpretation,
   figures, run instructions and a copyable citation.
 - `.github/workflows/pages.yml` deploys `docs/` to GitHub Pages on every change to the site.
+- Community health files: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md` and
+  `ACCESSIBILITY.md`.
+- GitHub issue templates (bug report, feature request) and a pull request template.
+- Website: skip-to-content link and spoken status messages for the results toggle and the
+  copy buttons.
 
 ### Changed
 - `CITATION.cff` and the README citation now point to the paper, with its full seven-author
   list and title. The software authors in `CITATION.cff` are unchanged.
+- Website accessibility: darker prediction-orange for text contrast (4.5:1 or better), visible
+  link underlines, and descriptive labels on the copy buttons.
 
 ## [0.2.0] - 2026-10-31
 

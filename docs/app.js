@@ -51,15 +51,26 @@
     b.addEventListener("click", function () {
       btns.forEach(function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
       render(b.getAttribute("data-tta") === "1");
+      var status = document.getElementById("ladder-status");
+      if (status) status.textContent = "Showing " + b.textContent.toLowerCase() + " results.";
     });
   });
 
   document.querySelectorAll(".copy").forEach(function (b) {
     b.addEventListener("click", function () {
       var el = document.getElementById(b.getAttribute("data-copy"));
+      var live = document.getElementById("copy-status");
+      if (!live) {
+        live = document.createElement("p");
+        live.id = "copy-status";
+        live.className = "sr-only";
+        live.setAttribute("role", "status");
+        document.body.appendChild(live);
+      }
       var done = function () {
         b.textContent = "Copied";
-        setTimeout(function () { b.textContent = "Copy"; }, 1600);
+        live.textContent = "Copied to clipboard.";
+        setTimeout(function () { b.textContent = "Copy"; live.textContent = ""; }, 1600);
       };
       if (navigator.clipboard) navigator.clipboard.writeText(el.innerText).then(done, function () {});
     });
