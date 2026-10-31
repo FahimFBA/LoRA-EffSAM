@@ -134,15 +134,15 @@ data/       # dataset location (downloaded by scripts/setup_data.sh, gitignored)
 
 ## Citation
 
-If you use this code, please cite it (see [`CITATION.cff`](CITATION.cff)):
+If you use this code, please cite our paper (also in [`CITATION.cff`](CITATION.cff)):
 
 ```bibtex
-@software{lora_effsam,
-  title   = {LoRA-EffSAM: parameter-efficient brain-tumor MRI segmentation with LoRA-adapted EfficientSAM},
-  author  = {Amin, Md. Fahim Bin and Khan, Israt Jahan},
-  year    = {2026},
-  version = {0.2.0},
-  url     = {https://github.com/FahimFBA/lora-effsam}
+@unpublished{amin2026loraeffsam,
+  title  = {{LoRA-EffSAM}: Prompt-free brain tumor segmentation with a parameter-efficient {EfficientSAM}},
+  author = {Amin, Md. Fahim Bin and Khan, Israt Jahan and Juoairia, Adiba and Alam, Touhid and
+            Morol, Md Kishor and Liew, Tze Hui and Nandi, Dip},
+  year   = {2026},
+  note   = {Code: https://github.com/FahimFBA/LoRA-EffSAM}
 }
 ```
 

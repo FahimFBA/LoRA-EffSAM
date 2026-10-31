@@ -13,3 +13,22 @@ authors:
   - family-names: Khan
     given-names: Israt Jahan
     email: isratjahankhanijk@gmail.com
+preferred-citation:
+  type: unpublished
+  title: "LoRA-EffSAM: Prompt-free brain tumor segmentation with a parameter-efficient EfficientSAM"
+  year: 2026
+  authors:
+    - family-names: Amin
+      given-names: Md. Fahim Bin
+    - family-names: Khan
+      given-names: Israt Jahan
+    - family-names: Juoairia
+      given-names: Adiba
+    - family-names: Alam
+      given-names: Touhid
+    - family-names: Morol
+      given-names: Md Kishor
+    - family-names: Liew
+      given-names: Tze Hui
+    - family-names: Nandi
+      given-names: Dip
