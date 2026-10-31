@@ -1,0 +1,10 @@
+{
+  "test_loss": 0.3818266952812547,
+  "test_dice": 0.8037459962772873,
+  "n_test": 477,
+  "best_epoch": 48,
+  "best_val_dice": 0.7758925230705147,
+  "stopped_early": false,
+  "last_epoch": 60,
+  "finished": "2026-10-04 02:29:42"
+}

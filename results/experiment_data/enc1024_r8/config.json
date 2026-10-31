@@ -1,0 +1,40 @@
+{
+  "model_args": {
+    "image_size": 256,
+    "variant": "vitt",
+    "checkpoint_path": null,
+    "lora_r": 8,
+    "lora_alpha": 8,
+    "lora_also_proj": false,
+    "use_feature_attention": true,
+    "use_refine_head": true,
+    "mc_dropout_p": 0.2,
+    "encoder_size": 1024
+  },
+  "split": {
+    "data_root": "data",
+    "val_split": 0.15,
+    "test_split": 0.15,
+    "seed": 42,
+    "small_lesion_threshold": 100.0
+  },
+  "epochs_planned": 60,
+  "reconstructed_from_checkpoint": true,
+  "note": "lr / batch / patience not stored in old checkpoints; see run script",
+  "args": {
+    "image_size": 256,
+    "encoder_size": 1024,
+    "batch_size": 2,
+    "grad_accum_steps": 4,
+    "rank": 8,
+    "lr": 0.0003,
+    "epochs": 60,
+    "early_stop_patience": 15,
+    "small_lesion_threshold": 100.0,
+    "source": "run_improved.sh v1",
+    "weight_decay": 0.0001,
+    "lr_schedule": "cosine",
+    "seed": 42
+  },
+  "args_reconstructed_from_run_script": true
+}

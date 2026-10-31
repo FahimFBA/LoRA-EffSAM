@@ -1,0 +1,66 @@
+{
+  "learned_parameters": {
+    "img512_intaug_vits_hybrid_vsds": {
+      "feature_attention_gamma": 0.07425851374864578,
+      "refine_gate_scale": 8.271886825561523,
+      "refine_gate_bias": -0.7358331680297852,
+      "refine_out_conv_weight_norm": 0.7626248002052307
+    },
+    "img512_intaug_vits_hybrid_vsds_s1": {
+      "feature_attention_gamma": 0.075767882168293,
+      "refine_gate_scale": 8.319966316223145,
+      "refine_gate_bias": -0.673565149307251,
+      "refine_out_conv_weight_norm": 0.7374194264411926
+    },
+    "img512_intaug_vits_hybrid_vsds_s2": {
+      "feature_attention_gamma": 0.062420498579740524,
+      "refine_gate_scale": 8.304354667663574,
+      "refine_gate_bias": -0.7141217589378357,
+      "refine_out_conv_weight_norm": 0.7458293437957764
+    }
+  },
+  "attention_over_test_set_seed42": {
+    "n": 477,
+    "sa_inside_mean": 0.6719852685928345,
+    "sa_outside_mean": 0.6732710003852844,
+    "ratio_median": 0.9959090948104858,
+    "frac_images_inside_gt_outside": 0.4570230607966457
+  },
+  "cases": [
+    {
+      "case": "Meningioma, median case",
+      "id": "552",
+      "dice": 0.9435752630233765,
+      "sa_in": 0.6716927886009216,
+      "sa_out": 0.6690777540206909
+    },
+    {
+      "case": "Glioma, median case",
+      "id": "2038",
+      "dice": 0.8492659330368042,
+      "sa_in": 0.6632446646690369,
+      "sa_out": 0.674963116645813
+    },
+    {
+      "case": "Pituitary tumor, median case",
+      "id": "1732",
+      "dice": 0.905770480632782,
+      "sa_in": 0.6568625569343567,
+      "sa_out": 0.6674812436103821
+    },
+    {
+      "case": "Smallest-size quartile, median case",
+      "id": "1789",
+      "dice": 0.8668032884597778,
+      "sa_in": 0.6950417757034302,
+      "sa_out": 0.6707733869552612
+    },
+    {
+      "case": "Worst test case",
+      "id": "2078",
+      "dice": 7.065639739955998e-11,
+      "sa_in": 0.6877458095550537,
+      "sa_out": 0.6748856902122498
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "run": "img512_intaug_vits_hybrid_vsds",
+    "n": 477,
+    "mean_dice": 0.8189713409124124,
+    "median_dice": 0.9034162759780884,
+    "U_boundary": 0.0025509838083951648,
+    "U_interior": 0.000979172291863657,
+    "U_background": 3.555085223085094e-05,
+    "boundary_gt_interior": "429/477",
+    "boundary_vs_interior_p": 7.257774867167377e-62,
+    "U_boundary_smallQ1": 0.003751767455833732,
+    "U_boundary_largeQ4": 0.002127640732193025,
+    "small_vs_large_p": 0.047838850384644256,
+    "spearman_Uboundary_dice": 0.22477283326688216,
+    "spearman_p": 7.05515937685406e-07,
+    "n_fail_lt0_5": 40,
+    "auroc_Uboundary_flags_failure": 0.26842105263157895,
+    "size_stratified_T": {
+      "U_small": 0.00883738232369069,
+      "U_large": 0.002443753130095881,
+      "n_small": 8,
+      "n_large": 469
+    }
+  },
+  {
+    "run": "img512_intaug_vits_hybrid_vsds_s1",
+    "n": 477,
+    "mean_dice": 0.8214547809079208,
+    "median_dice": 0.898975133895874,
+    "U_boundary": 0.001921151401995276,
+    "U_interior": 0.0003884903764749674,
+    "U_background": 1.3967963873631255e-05,
+    "boundary_gt_interior": "430/477",
+    "boundary_vs_interior_p": 4.0191329551530736e-64,
+    "U_boundary_smallQ1": 0.0021985807356176917,
+    "U_boundary_largeQ4": 0.0017284157688148367,
+    "small_vs_large_p": 4.5735230763405334e-05,
+    "spearman_Uboundary_dice": 0.4242066606385192,
+    "spearman_p": 2.9420436605914083e-22,
+    "n_fail_lt0_5": 36,
+    "auroc_Uboundary_flags_failure": 0.14014865205341395,
+    "size_stratified_T": {
+      "U_small": 0.0018699908570802373,
+      "U_large": 0.0019220240765354046,
+      "n_small": 8,
+      "n_large": 469
+    }
+  },
+  {
+    "run": "img512_intaug_vits_hybrid_vsds_s2",
+    "n": 477,
+    "mean_dice": 0.81552349046051,
+    "median_dice": 0.9015151262283325,
+    "U_boundary": 0.0016739108170360035,
+    "U_interior": 0.0005680927147268599,
+    "U_background": 1.8755714546857294e-05,
+    "boundary_gt_interior": "432/477",
+    "boundary_vs_interior_p": 6.059970245079623e-63,
+    "U_boundary_smallQ1": 0.002235158835062632,
+    "U_boundary_largeQ4": 0.0016000805512697825,
+    "small_vs_large_p": 0.20025042121008896,
+    "spearman_Uboundary_dice": 0.24105657104556508,
+    "spearman_p": 9.83557878902045e-08,
+    "n_fail_lt0_5": 42,
+    "auroc_Uboundary_flags_failure": 0.28347016967706623,
+    "size_stratified_T": {
+      "U_small": 0.002791529186777111,
+      "U_large": 0.0016548469642472428,
+      "n_small": 8,
+      "n_large": 469
+    }
+  },
+  {
+    "run": "img512_intaug",
+    "n": 477,
+    "mean_dice": 0.8026673495204394,
+    "median_dice": 0.8921017646789551,
+    "U_boundary": 0.00676010120478171,
+    "U_interior": 0.002428341659893124,
+    "U_background": 6.544792783381416e-05,
+    "boundary_gt_interior": "426/477",
+    "boundary_vs_interior_p": 1.4498078361411807e-52,
+    "U_boundary_smallQ1": 0.010380843043097446,
+    "U_boundary_largeQ4": 0.004575284556532492,
+    "small_vs_large_p": 3.222899829508882e-17,
+    "spearman_Uboundary_dice": 0.04149116818907242,
+    "spearman_p": 0.3658932595921861,
+    "n_fail_lt0_5": 50,
+    "auroc_Uboundary_flags_failure": 0.43822014051522246,
+    "size_stratified_T": {
+      "U_small": 0.013581446488406392,
+      "U_large": 0.00664374563491178,
+      "n_small": 8,
+      "n_large": 469
+    }
+  },
+  {
+    "run": "enc512",
+    "n": 477,
+    "mean_dice": 0.7831765688004548,
+    "median_dice": 0.8825438022613525,
+    "U_boundary": 0.003850648045662358,
+    "U_interior": 0.0016161603449104827,
+    "U_background": 5.829609243271902e-05,
+    "boundary_gt_interior": "422/473",
+    "boundary_vs_interior_p": 3.766916493442934e-51,
+    "U_boundary_smallQ1": 0.005241681896254629,
+    "U_boundary_largeQ4": 0.002862149524991072,
+    "small_vs_large_p": 1.7094503425806436e-14,
+    "spearman_Uboundary_dice": 0.0637866271865297,
+    "spearman_p": 0.1660501385428385,
+    "n_fail_lt0_5": 57,
+    "auroc_Uboundary_flags_failure": 0.31374269005847955,
+    "size_stratified_T": {
+      "U_small": 0.0058340399993172575,
+      "U_large": 0.0038168161999710165,
+      "n_small": 8,
+      "n_large": 469
+    }
+  }
+]

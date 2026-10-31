@@ -1,0 +1,9 @@
+{
+  "test_loss": 0.4241,
+  "test_dice": 0.7836,
+  "n_test": 477,
+  "best_epoch": 31,
+  "best_val_dice": 0.7849,
+  "last_epoch": 39,
+  "reconstructed_from_log": true
+}

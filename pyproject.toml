@@ -1,0 +1,48 @@
+# Authors: Md. Fahim Bin Amin <fahimbinamin@gmail.com>, Israt Jahan Khan <isratjahankhanijk@gmail.com>
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lora-effsam"
+version = "0.2.0"
+description = "Parameter-efficient brain-tumor MRI segmentation: LoRA-adapted EfficientSAM with a hybrid CNN-ViT decoder, size-adaptive boundary-aware loss, MC-Dropout uncertainty and explainability analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Md. Fahim Bin Amin", email = "fahimbinamin@gmail.com" },
+    { name = "Israt Jahan Khan", email = "isratjahankhanijk@gmail.com" },
+]
+
+# Install PyTorch with CUDA first (see README), e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+dependencies = [
+    "torch>=2.1",
+    "torchvision>=0.15",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "h5py>=3.8",
+    "pillow>=9.0",
+    "matplotlib>=3.7",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+lora-effsam = "lora_effsam.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

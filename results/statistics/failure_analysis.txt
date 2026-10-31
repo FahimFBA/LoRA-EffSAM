@@ -1,0 +1,6 @@
+img512_intaug_vits_hybrid_vsds fails<0.3: 26 {'Meningioma': 3, 'Glioma': 21, 'Pituitary tumor': 2}
+img512_intaug_vits_hybrid_vsds_s1 fails<0.3: 26 {'Meningioma': 3, 'Glioma': 21, 'Pituitary tumor': 2}
+img512_intaug_vits_hybrid_vsds_s2 fails<0.3: 26 {'Meningioma': 3, 'Glioma': 21, 'Pituitary tumor': 2}
+seed42 failures n=26: mean Dice at 1/8 level 0.078 (final 0.079); share with 1/8 Dice < 0.3: 0.96
+non-failures: mean 1/8 Dice 0.835
+corr final vs 1/8 Dice: 0.967

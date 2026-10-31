@@ -1,0 +1,4781 @@
+{
+  "per_image": [
+    {
+      "area": 676.0,
+      "label": 0,
+      "dice": 0.9505094885826111,
+      "U_boundary": 0.0011129954364150763,
+      "U_interior": 0.0,
+      "U_background": 3.627396646943559e-11,
+      "id": "452",
+      "class": "Meningioma"
+    },
+    {
+      "area": 922.0,
+      "label": 0,
+      "dice": 0.9576271176338196,
+      "U_boundary": 0.0008132474613375962,
+      "U_interior": 0.0,
+      "U_background": 6.020879628199083e-11,
+      "id": "453",
+      "class": "Meningioma"
+    },
+    {
+      "area": 850.0,
+      "label": 0,
+      "dice": 0.9251396656036377,
+      "U_boundary": 0.001107842312194407,
+      "U_interior": 0.0,
+      "U_background": 1.8763362419349505e-08,
+      "id": "454",
+      "class": "Meningioma"
+    },
+    {
+      "area": 361.0,
+      "label": 0,
+      "dice": 0.9049429893493652,
+      "U_boundary": 0.0015439724083989859,
+      "U_interior": 0.0,
+      "U_background": 3.4471595716789594e-11,
+      "id": "471",
+      "class": "Meningioma"
+    },
+    {
+      "area": 544.0,
+      "label": 0,
+      "dice": 0.8947368264198303,
+      "U_boundary": 0.0021709762513637543,
+      "U_interior": 0.0,
+      "U_background": 1.127521201405024e-10,
+      "id": "472",
+      "class": "Meningioma"
+    },
+    {
+      "area": 465.0,
+      "label": 0,
+      "dice": 0.8758974075317383,
+      "U_boundary": 0.0013075231108814478,
+      "U_interior": 0.0,
+      "U_background": 9.9804831066308e-09,
+      "id": "473",
+      "class": "Meningioma"
+    },
+    {
+      "area": 146.0,
+      "label": 0,
+      "dice": 0.23615634441375732,
+      "U_boundary": 0.0015297082718461752,
+      "U_interior": 0.0,
+      "U_background": 6.121354090282694e-05,
+      "id": "252",
+      "class": "Meningioma"
+    },
+    {
+      "area": 91.0,
+      "label": 0,
+      "dice": 4.032258082986573e-09,
+      "U_boundary": 1.4507890000459156e-07,
+      "U_interior": 1.78335506006988e-06,
+      "U_background": 0.00013485093950293958,
+      "id": "34",
+      "class": "Meningioma"
+    },
+    {
+      "area": 210.0,
+      "label": 0,
+      "dice": 0.8805620670318604,
+      "U_boundary": 0.001318331342190504,
+      "U_interior": 0.0,
+      "U_background": 2.8130633239475955e-11,
+      "id": "489",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1473.0,
+      "label": 0,
+      "dice": 0.892727255821228,
+      "U_boundary": 0.0007321712328121066,
+      "U_interior": 0.0,
+      "U_background": 3.93231584894238e-06,
+      "id": "299",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2933.0,
+      "label": 0,
+      "dice": 0.9777177572250366,
+      "U_boundary": 0.0012954220874235034,
+      "U_interior": 3.927197585633027e-16,
+      "U_background": 2.7366353627655826e-10,
+      "id": "300",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2914.0,
+      "label": 0,
+      "dice": 0.9773801565170288,
+      "U_boundary": 0.0014064342249184847,
+      "U_interior": 9.206477204323345e-18,
+      "U_background": 2.6943167141801894e-10,
+      "id": "301",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2722.0,
+      "label": 0,
+      "dice": 0.9671292901039124,
+      "U_boundary": 0.0009621352655813098,
+      "U_interior": 4.857331442446877e-13,
+      "U_background": 9.210170820450614e-11,
+      "id": "302",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2190.0,
+      "label": 0,
+      "dice": 0.9473216533660889,
+      "U_boundary": 0.0009646333637647331,
+      "U_interior": 4.438003186754897e-16,
+      "U_background": 1.1623337847765924e-08,
+      "id": "303",
+      "class": "Meningioma"
+    },
+    {
+      "area": 820.0,
+      "label": 0,
+      "dice": 0.9452381134033203,
+      "U_boundary": 0.0010776150738820434,
+      "U_interior": 0.0,
+      "U_background": 5.3532248078802525e-11,
+      "id": "533",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1191.0,
+      "label": 0,
+      "dice": 0.9378218054771423,
+      "U_boundary": 0.0006922379252500832,
+      "U_interior": 0.0,
+      "U_background": 8.942720869375975e-11,
+      "id": "534",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2188.0,
+      "label": 0,
+      "dice": 0.9632580876350403,
+      "U_boundary": 0.0008910986362025142,
+      "U_interior": 1.865174821660095e-17,
+      "U_background": 2.6255531793140108e-06,
+      "id": "535",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2809.0,
+      "label": 0,
+      "dice": 0.9658045768737793,
+      "U_boundary": 0.0008674626005813479,
+      "U_interior": 4.305506587376235e-16,
+      "U_background": 1.685683398422455e-10,
+      "id": "536",
+      "class": "Meningioma"
+    },
+    {
+      "area": 3149.0,
+      "label": 0,
+      "dice": 0.9771904945373535,
+      "U_boundary": 0.001094168983399868,
+      "U_interior": 8.913334056704107e-16,
+      "U_background": 3.8964123594276145e-10,
+      "id": "537",
+      "class": "Meningioma"
+    },
+    {
+      "area": 3194.0,
+      "label": 0,
+      "dice": 0.9451578855514526,
+      "U_boundary": 0.0008308625547215343,
+      "U_interior": 1.6314587755836968e-13,
+      "U_background": 8.30469980428461e-06,
+      "id": "538",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1812.0,
+      "label": 0,
+      "dice": 0.9490676522254944,
+      "U_boundary": 0.0006815355154685676,
+      "U_interior": 1.282467919838312e-13,
+      "U_background": 1.131009105814762e-10,
+      "id": "539",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1880.0,
+      "label": 0,
+      "dice": 0.9582557678222656,
+      "U_boundary": 0.0013584381667897105,
+      "U_interior": 2.7896596675179404e-17,
+      "U_background": 2.8986180122814176e-10,
+      "id": "73",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2651.0,
+      "label": 0,
+      "dice": 0.9600437879562378,
+      "U_boundary": 0.000795672123786062,
+      "U_interior": 1.5869991101783095e-17,
+      "U_background": 1.239226889993006e-06,
+      "id": "74",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2869.0,
+      "label": 0,
+      "dice": 0.9602581262588501,
+      "U_boundary": 0.000944503175560385,
+      "U_interior": 2.0533027318345165e-14,
+      "U_background": 4.894138427857797e-10,
+      "id": "75",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2611.0,
+      "label": 0,
+      "dice": 0.9688374400138855,
+      "U_boundary": 0.0012508098734542727,
+      "U_interior": 1.0845319859393416e-15,
+      "U_background": 1.0223859953084613e-10,
+      "id": "76",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2081.0,
+      "label": 0,
+      "dice": 0.908495306968689,
+      "U_boundary": 0.0014570193598046899,
+      "U_interior": 1.7811706599883947e-17,
+      "U_background": 7.915543392300606e-06,
+      "id": "77",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1755.0,
+      "label": 0,
+      "dice": 0.9365591406822205,
+      "U_boundary": 0.0012671865988522768,
+      "U_interior": 0.0,
+      "U_background": 4.3476536260023124e-10,
+      "id": "78",
+      "class": "Meningioma"
+    },
+    {
+      "area": 587.0,
+      "label": 0,
+      "dice": 0.8152777552604675,
+      "U_boundary": 0.0008185653132386506,
+      "U_interior": 0.0,
+      "U_background": 8.064367648330517e-06,
+      "id": "79",
+      "class": "Meningioma"
+    },
+    {
+      "area": 915.0,
+      "label": 0,
+      "dice": 0.9243967533111572,
+      "U_boundary": 0.0014177632983773947,
+      "U_interior": 1.4751548593761044e-10,
+      "U_background": 1.8202765683650313e-11,
+      "id": "316",
+      "class": "Meningioma"
+    },
+    {
+      "area": 963.0,
+      "label": 0,
+      "dice": 0.9263049960136414,
+      "U_boundary": 0.0007345086196437478,
+      "U_interior": 0.0,
+      "U_background": 3.382567143050963e-11,
+      "id": "317",
+      "class": "Meningioma"
+    },
+    {
+      "area": 637.0,
+      "label": 0,
+      "dice": 0.9529780745506287,
+      "U_boundary": 0.0013504404341802,
+      "U_interior": 0.0,
+      "U_background": 6.824745629741003e-11,
+      "id": "318",
+      "class": "Meningioma"
+    },
+    {
+      "area": 594.0,
+      "label": 0,
+      "dice": 0.9293924570083618,
+      "U_boundary": 0.0009175817831419408,
+      "U_interior": 0.0,
+      "U_background": 5.63686076981984e-11,
+      "id": "319",
+      "class": "Meningioma"
+    },
+    {
+      "area": 738.0,
+      "label": 0,
+      "dice": 0.9265305995941162,
+      "U_boundary": 0.001046720426529646,
+      "U_interior": 1.497802140231573e-16,
+      "U_background": 4.0003791945686373e-11,
+      "id": "551",
+      "class": "Meningioma"
+    },
+    {
+      "area": 954.0,
+      "label": 0,
+      "dice": 0.9220647811889648,
+      "U_boundary": 0.0005419726949185133,
+      "U_interior": 0.0,
+      "U_background": 3.082678858845611e-07,
+      "id": "552",
+      "class": "Meningioma"
+    },
+    {
+      "area": 999.0,
+      "label": 0,
+      "dice": 0.9140225052833557,
+      "U_boundary": 0.0009465980110689998,
+      "U_interior": 7.372480403944337e-11,
+      "U_background": 3.230572059864656e-11,
+      "id": "553",
+      "class": "Meningioma"
+    },
+    {
+      "area": 551.0,
+      "label": 0,
+      "dice": 0.8876712322235107,
+      "U_boundary": 0.0009089564555324614,
+      "U_interior": 2.799407650133645e-10,
+      "U_background": 2.1226838065047104e-09,
+      "id": "554",
+      "class": "Meningioma"
+    },
+    {
+      "area": 516.0,
+      "label": 0,
+      "dice": 0.9247910976409912,
+      "U_boundary": 0.0016221334226429462,
+      "U_interior": 0.0,
+      "U_background": 1.0787552101598763e-10,
+      "id": "555",
+      "class": "Meningioma"
+    },
+    {
+      "area": 641.0,
+      "label": 0,
+      "dice": 0.8533519506454468,
+      "U_boundary": 0.0010746621992439032,
+      "U_interior": 0.0,
+      "U_background": 2.6367740701971343e-06,
+      "id": "93",
+      "class": "Meningioma"
+    },
+    {
+      "area": 769.0,
+      "label": 0,
+      "dice": 0.8170534372329712,
+      "U_boundary": 0.00075885298429057,
+      "U_interior": 0.0,
+      "U_background": 3.0732153390999883e-05,
+      "id": "94",
+      "class": "Meningioma"
+    },
+    {
+      "area": 297.0,
+      "label": 0,
+      "dice": 0.8258258104324341,
+      "U_boundary": 0.0011055470677092671,
+      "U_interior": 0.0,
+      "U_background": 5.483174678189151e-11,
+      "id": "95",
+      "class": "Meningioma"
+    },
+    {
+      "area": 433.0,
+      "label": 0,
+      "dice": 0.9164021015167236,
+      "U_boundary": 0.000985210994258523,
+      "U_interior": 0.0,
+      "U_background": 3.747114077357061e-11,
+      "id": "96",
+      "class": "Meningioma"
+    },
+    {
+      "area": 608.0,
+      "label": 0,
+      "dice": 0.9028475880622864,
+      "U_boundary": 0.0007883665966801345,
+      "U_interior": 0.0,
+      "U_background": 4.5921984964669704e-11,
+      "id": "97",
+      "class": "Meningioma"
+    },
+    {
+      "area": 492.0,
+      "label": 0,
+      "dice": 0.9085239171981812,
+      "U_boundary": 0.0009311547037214041,
+      "U_interior": 0.0,
+      "U_background": 6.528171753172884e-11,
+      "id": "98",
+      "class": "Meningioma"
+    },
+    {
+      "area": 612.0,
+      "label": 0,
+      "dice": 0.7975625991821289,
+      "U_boundary": 0.001001657103188336,
+      "U_interior": 0.0,
+      "U_background": 4.8829897423274815e-06,
+      "id": "100",
+      "class": "Meningioma"
+    },
+    {
+      "area": 821.0,
+      "label": 0,
+      "dice": 0.919681191444397,
+      "U_boundary": 0.0014118575491011143,
+      "U_interior": 5.0874184339619305e-18,
+      "U_background": 2.442320477802351e-11,
+      "id": "101",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1187.0,
+      "label": 0,
+      "dice": 0.8032712340354919,
+      "U_boundary": 0.0007362830801866949,
+      "U_interior": 0.0005557416588999331,
+      "U_background": 1.6076712654466974e-06,
+      "id": "102",
+      "class": "Meningioma"
+    },
+    {
+      "area": 736.0,
+      "label": 0,
+      "dice": 0.8924598097801208,
+      "U_boundary": 0.0008117985562421381,
+      "U_interior": 0.0,
+      "U_background": 2.716177050388069e-06,
+      "id": "103",
+      "class": "Meningioma"
+    },
+    {
+      "area": 346.0,
+      "label": 0,
+      "dice": 0.8693259954452515,
+      "U_boundary": 0.0014262436889111996,
+      "U_interior": 0.0,
+      "U_background": 2.7083347717282713e-11,
+      "id": "320",
+      "class": "Meningioma"
+    },
+    {
+      "area": 478.0,
+      "label": 0,
+      "dice": 0.9070248007774353,
+      "U_boundary": 0.0011270649265497923,
+      "U_interior": 0.0,
+      "U_background": 3.398580375457705e-11,
+      "id": "321",
+      "class": "Meningioma"
+    },
+    {
+      "area": 853.0,
+      "label": 0,
+      "dice": 0.8986948132514954,
+      "U_boundary": 0.0013898889301344752,
+      "U_interior": 4.279841959942132e-06,
+      "U_background": 8.790763256216749e-11,
+      "id": "322",
+      "class": "Meningioma"
+    },
+    {
+      "area": 570.0,
+      "label": 0,
+      "dice": 0.9054982662200928,
+      "U_boundary": 0.0011659039882943034,
+      "U_interior": 2.0810874903821563e-17,
+      "U_background": 1.746391262713587e-06,
+      "id": "323",
+      "class": "Meningioma"
+    },
+    {
+      "area": 526.0,
+      "label": 0,
+      "dice": 0.9082483649253845,
+      "U_boundary": 0.001474663382396102,
+      "U_interior": 0.0,
+      "U_background": 3.1889262064321855e-11,
+      "id": "324",
+      "class": "Meningioma"
+    },
+    {
+      "area": 508.0,
+      "label": 0,
+      "dice": 0.9182643890380859,
+      "U_boundary": 0.0014438213547691703,
+      "U_interior": 0.0,
+      "U_background": 2.9007865554042667e-11,
+      "id": "325",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1497.0,
+      "label": 0,
+      "dice": 0.8355754613876343,
+      "U_boundary": 0.001409308984875679,
+      "U_interior": 0.0008403270621784031,
+      "U_background": 4.7000459080237533e-11,
+      "id": "556",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1181.0,
+      "label": 0,
+      "dice": 0.7846842408180237,
+      "U_boundary": 0.0024138223379850388,
+      "U_interior": 0.00044389592949301004,
+      "U_background": 1.1572291042094562e-10,
+      "id": "557",
+      "class": "Meningioma"
+    },
+    {
+      "area": 437.0,
+      "label": 0,
+      "dice": 0.9570010900497437,
+      "U_boundary": 0.0009201567154377699,
+      "U_interior": 0.0,
+      "U_background": 5.1068364814721434e-11,
+      "id": "558",
+      "class": "Meningioma"
+    },
+    {
+      "area": 349.0,
+      "label": 0,
+      "dice": 0.9129814505577087,
+      "U_boundary": 0.0017111373599618673,
+      "U_interior": 0.0,
+      "U_background": 2.425400158490021e-11,
+      "id": "559",
+      "class": "Meningioma"
+    },
+    {
+      "area": 598.0,
+      "label": 0,
+      "dice": 0.38986486196517944,
+      "U_boundary": 0.0010205733124166727,
+      "U_interior": 5.7301832648493234e-18,
+      "U_background": 0.00010599157394608483,
+      "id": "99",
+      "class": "Meningioma"
+    },
+    {
+      "area": 154.0,
+      "label": 0,
+      "dice": 1.6207455377781343e-09,
+      "U_boundary": 1.310586567656452e-13,
+      "U_interior": 4.897279413593192e-13,
+      "U_background": 1.6056736058089882e-05,
+      "id": "111",
+      "class": "Meningioma"
+    },
+    {
+      "area": 843.0,
+      "label": 0,
+      "dice": 0.8267813324928284,
+      "U_boundary": 0.0007249559857882559,
+      "U_interior": 0.00010960756480926648,
+      "U_background": 1.2459388555596806e-11,
+      "id": "112",
+      "class": "Meningioma"
+    },
+    {
+      "area": 716.0,
+      "label": 0,
+      "dice": 0.8196457624435425,
+      "U_boundary": 0.0012488131178542972,
+      "U_interior": 9.804851288208738e-05,
+      "U_background": 4.0962004621558634e-11,
+      "id": "332",
+      "class": "Meningioma"
+    },
+    {
+      "area": 286.0,
+      "label": 0,
+      "dice": 0.5005537271499634,
+      "U_boundary": 0.0023968995083123446,
+      "U_interior": 6.246529834566053e-17,
+      "U_background": 3.425063187023625e-05,
+      "id": "333",
+      "class": "Meningioma"
+    },
+    {
+      "area": 502.0,
+      "label": 0,
+      "dice": 0.912539541721344,
+      "U_boundary": 0.0012833449291065335,
+      "U_interior": 1.5182537838302525e-17,
+      "U_background": 6.551806840116026e-12,
+      "id": "569",
+      "class": "Meningioma"
+    },
+    {
+      "area": 482.0,
+      "label": 0,
+      "dice": 0.9051094651222229,
+      "U_boundary": 0.0009166430681943893,
+      "U_interior": 0.0,
+      "U_background": 2.380149896619166e-11,
+      "id": "570",
+      "class": "Meningioma"
+    },
+    {
+      "area": 410.0,
+      "label": 0,
+      "dice": 0.8883826732635498,
+      "U_boundary": 0.0009585765656083822,
+      "U_interior": 0.0,
+      "U_background": 4.5127179770787507e-11,
+      "id": "175",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1013.0,
+      "label": 0,
+      "dice": 0.9391654133796692,
+      "U_boundary": 0.000838194799143821,
+      "U_interior": 1.813187181905627e-17,
+      "U_background": 4.690982671751165e-11,
+      "id": "176",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1249.0,
+      "label": 0,
+      "dice": 0.9444891214370728,
+      "U_boundary": 0.0010364463087171316,
+      "U_interior": 0.0,
+      "U_background": 8.085483671482763e-11,
+      "id": "177",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1069.0,
+      "label": 0,
+      "dice": 0.9389097690582275,
+      "U_boundary": 0.0010633132187649608,
+      "U_interior": 0.0,
+      "U_background": 6.645455713494286e-11,
+      "id": "178",
+      "class": "Meningioma"
+    },
+    {
+      "area": 595.0,
+      "label": 0,
+      "dice": 0.9406706690788269,
+      "U_boundary": 0.0005532909999601543,
+      "U_interior": 0.0,
+      "U_background": 1.0723817667201985e-11,
+      "id": "179",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1224.0,
+      "label": 0,
+      "dice": 0.9671666026115417,
+      "U_boundary": 0.0011862864485010505,
+      "U_interior": 0.0,
+      "U_background": 7.953891018042114e-11,
+      "id": "405",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1176.0,
+      "label": 0,
+      "dice": 0.9602295756340027,
+      "U_boundary": 0.0009142113267444074,
+      "U_interior": 0.0,
+      "U_background": 4.050983160031052e-11,
+      "id": "406",
+      "class": "Meningioma"
+    },
+    {
+      "area": 870.0,
+      "label": 0,
+      "dice": 0.9613012075424194,
+      "U_boundary": 0.0013678636169061065,
+      "U_interior": 0.0,
+      "U_background": 6.450681655501e-11,
+      "id": "407",
+      "class": "Meningioma"
+    },
+    {
+      "area": 944.0,
+      "label": 0,
+      "dice": 0.9643979072570801,
+      "U_boundary": 0.001575981266796589,
+      "U_interior": 0.0,
+      "U_background": 4.5502962509047507e-11,
+      "id": "664",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1148.0,
+      "label": 0,
+      "dice": 0.956970751285553,
+      "U_boundary": 0.0011456686770543456,
+      "U_interior": 0.0,
+      "U_background": 5.7926937552243984e-11,
+      "id": "665",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1049.0,
+      "label": 0,
+      "dice": 0.9464530944824219,
+      "U_boundary": 0.0009624650119803846,
+      "U_interior": 0.0,
+      "U_background": 3.5552168847763355e-11,
+      "id": "666",
+      "class": "Meningioma"
+    },
+    {
+      "area": 717.0,
+      "label": 0,
+      "dice": 0.9018531441688538,
+      "U_boundary": 0.0012152689741924405,
+      "U_interior": 1.798842381158855e-18,
+      "U_background": 7.702487259120261e-11,
+      "id": "667",
+      "class": "Meningioma"
+    },
+    {
+      "area": 415.0,
+      "label": 0,
+      "dice": 0.24914546310901642,
+      "U_boundary": 0.0023517438676208258,
+      "U_interior": 2.4753376431929652e-11,
+      "U_background": 6.72996902721934e-05,
+      "id": "184",
+      "class": "Meningioma"
+    },
+    {
+      "area": 508.0,
+      "label": 0,
+      "dice": 0.745312511920929,
+      "U_boundary": 0.0018788545858114958,
+      "U_interior": 3.7946656755683764e-15,
+      "U_background": 1.1751908459700644e-05,
+      "id": "185",
+      "class": "Meningioma"
+    },
+    {
+      "area": 128.0,
+      "label": 0,
+      "dice": 0.17067493498325348,
+      "U_boundary": 0.0012227605329826474,
+      "U_interior": 4.1796631671004597e-16,
+      "U_background": 4.8682828492019325e-05,
+      "id": "186",
+      "class": "Meningioma"
+    },
+    {
+      "area": 347.0,
+      "label": 0,
+      "dice": 0.9582089781761169,
+      "U_boundary": 0.0028509313706308603,
+      "U_interior": 0.0,
+      "U_background": 8.728639339095068e-11,
+      "id": "414",
+      "class": "Meningioma"
+    },
+    {
+      "area": 377.0,
+      "label": 0,
+      "dice": 0.904411792755127,
+      "U_boundary": 0.0007035692106001079,
+      "U_interior": 0.0,
+      "U_background": 1.5231139514071401e-05,
+      "id": "415",
+      "class": "Meningioma"
+    },
+    {
+      "area": 343.0,
+      "label": 0,
+      "dice": 0.5609756112098694,
+      "U_boundary": 0.0008051803451962769,
+      "U_interior": 0.0,
+      "U_background": 1.7762435163604096e-05,
+      "id": "416",
+      "class": "Meningioma"
+    },
+    {
+      "area": 283.0,
+      "label": 0,
+      "dice": 0.44464609026908875,
+      "U_boundary": 0.0015577314188703895,
+      "U_interior": 0.0,
+      "U_background": 2.1682084479834884e-05,
+      "id": "417",
+      "class": "Meningioma"
+    },
+    {
+      "area": 373.0,
+      "label": 0,
+      "dice": 0.9428172707557678,
+      "U_boundary": 0.0027567551005631685,
+      "U_interior": 0.0,
+      "U_background": 1.8135527801721452e-10,
+      "id": "674",
+      "class": "Meningioma"
+    },
+    {
+      "area": 542.0,
+      "label": 0,
+      "dice": 0.949532687664032,
+      "U_boundary": 0.0012783273123204708,
+      "U_interior": 0.0,
+      "U_background": 2.0060272887256758e-11,
+      "id": "187",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1014.0,
+      "label": 0,
+      "dice": 0.9397715330123901,
+      "U_boundary": 0.0012133559212088585,
+      "U_interior": 6.996378942858428e-05,
+      "U_background": 1.0449408699431117e-10,
+      "id": "188",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1216.0,
+      "label": 0,
+      "dice": 0.9484110474586487,
+      "U_boundary": 0.0007434521685354412,
+      "U_interior": 9.086224375207377e-19,
+      "U_background": 5.897388133391246e-11,
+      "id": "189",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1337.0,
+      "label": 0,
+      "dice": 0.9428467154502869,
+      "U_boundary": 0.0012828913750126958,
+      "U_interior": 0.0,
+      "U_background": 2.1193702650634805e-06,
+      "id": "190",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1190.0,
+      "label": 0,
+      "dice": 0.8662533164024353,
+      "U_boundary": 0.0004558365617413074,
+      "U_interior": 5.168361167307012e-05,
+      "U_background": 3.052923885915604e-11,
+      "id": "191",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1099.0,
+      "label": 0,
+      "dice": 0.9495652318000793,
+      "U_boundary": 0.00053792743710801,
+      "U_interior": 0.0,
+      "U_background": 7.464184131888985e-11,
+      "id": "418",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1455.0,
+      "label": 0,
+      "dice": 0.9673247337341309,
+      "U_boundary": 0.00064691441366449,
+      "U_interior": 0.0,
+      "U_background": 1.1542418409948851e-10,
+      "id": "419",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1597.0,
+      "label": 0,
+      "dice": 0.9417127966880798,
+      "U_boundary": 0.0004560934903565794,
+      "U_interior": 1.803068943216756e-17,
+      "U_background": 9.748290369371304e-11,
+      "id": "420",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1113.0,
+      "label": 0,
+      "dice": 0.896039605140686,
+      "U_boundary": 0.0010915399761870503,
+      "U_interior": 0.00015229242853820324,
+      "U_background": 1.0899728342117498e-10,
+      "id": "421",
+      "class": "Meningioma"
+    },
+    {
+      "area": 320.0,
+      "label": 0,
+      "dice": 0.8697123527526855,
+      "U_boundary": 0.0032787765376269817,
+      "U_interior": 2.774140263683898e-15,
+      "U_background": 3.179756805082867e-11,
+      "id": "422",
+      "class": "Meningioma"
+    },
+    {
+      "area": 788.0,
+      "label": 0,
+      "dice": 0.9232839941978455,
+      "U_boundary": 0.0010925671085715294,
+      "U_interior": 3.533057527094208e-11,
+      "U_background": 3.3581137870442035e-11,
+      "id": "675",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1289.0,
+      "label": 0,
+      "dice": 0.9652723073959351,
+      "U_boundary": 0.0006528570665977895,
+      "U_interior": 1.914688860510784e-16,
+      "U_background": 2.3881731661679062e-11,
+      "id": "676",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1348.0,
+      "label": 0,
+      "dice": 0.9717015624046326,
+      "U_boundary": 0.0005814643227495253,
+      "U_interior": 0.0,
+      "U_background": 3.133181561421061e-11,
+      "id": "677",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1264.0,
+      "label": 0,
+      "dice": 0.949454128742218,
+      "U_boundary": 0.0019927192479372025,
+      "U_interior": 0.0,
+      "U_background": 1.424501488989094e-10,
+      "id": "678",
+      "class": "Meningioma"
+    },
+    {
+      "area": 691.0,
+      "label": 0,
+      "dice": 0.9195241332054138,
+      "U_boundary": 0.0015090106753632426,
+      "U_interior": 4.850638463383382e-16,
+      "U_background": 9.063692157917913e-11,
+      "id": "679",
+      "class": "Meningioma"
+    },
+    {
+      "area": 593.0,
+      "label": 0,
+      "dice": 0.8803088665008545,
+      "U_boundary": 0.0013672593049705029,
+      "U_interior": 0.0,
+      "U_background": 2.7049986783822533e-06,
+      "id": "198",
+      "class": "Meningioma"
+    },
+    {
+      "area": 540.0,
+      "label": 0,
+      "dice": 0.9163822531700134,
+      "U_boundary": 0.001272203866392374,
+      "U_interior": 0.0,
+      "U_background": 7.838621418621017e-11,
+      "id": "199",
+      "class": "Meningioma"
+    },
+    {
+      "area": 548.0,
+      "label": 0,
+      "dice": 0.9495128393173218,
+      "U_boundary": 0.0016947234980762005,
+      "U_interior": 0.0,
+      "U_background": 1.2799480919589712e-10,
+      "id": "430",
+      "class": "Meningioma"
+    },
+    {
+      "area": 503.0,
+      "label": 0,
+      "dice": 0.9763779640197754,
+      "U_boundary": 0.0011056208750233054,
+      "U_interior": 0.0,
+      "U_background": 8.05939065484651e-11,
+      "id": "431",
+      "class": "Meningioma"
+    },
+    {
+      "area": 633.0,
+      "label": 0,
+      "dice": 0.9419252276420593,
+      "U_boundary": 0.0015775802312418818,
+      "U_interior": 0.0,
+      "U_background": 4.684495152895707e-11,
+      "id": "686",
+      "class": "Meningioma"
+    },
+    {
+      "area": 551.0,
+      "label": 0,
+      "dice": 0.9750889539718628,
+      "U_boundary": 0.001380464993417263,
+      "U_interior": 0.0,
+      "U_background": 3.643157303612199e-11,
+      "id": "687",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1585.0,
+      "label": 0,
+      "dice": 0.8694459795951843,
+      "U_boundary": 0.0008200326119549572,
+      "U_interior": 5.090247474374923e-17,
+      "U_background": 1.6354522813344374e-05,
+      "id": "204",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2237.0,
+      "label": 0,
+      "dice": 0.9331352114677429,
+      "U_boundary": 0.0008080009720288217,
+      "U_interior": 5.823780260122424e-12,
+      "U_background": 2.1149969597900053e-06,
+      "id": "205",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2196.0,
+      "label": 0,
+      "dice": 0.931271493434906,
+      "U_boundary": 0.0010423482162877917,
+      "U_interior": 1.85399278734445e-18,
+      "U_background": 2.447747419864754e-06,
+      "id": "206",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2055.0,
+      "label": 0,
+      "dice": 0.9224604964256287,
+      "U_boundary": 0.0010394329437986016,
+      "U_interior": 6.786633921507246e-09,
+      "U_background": 5.00088435728685e-06,
+      "id": "207",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1532.0,
+      "label": 0,
+      "dice": 0.8645833134651184,
+      "U_boundary": 0.0006911286618560553,
+      "U_interior": 1.1193480046868087e-15,
+      "U_background": 1.743491338856984e-05,
+      "id": "208",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1796.0,
+      "label": 0,
+      "dice": 0.9454253315925598,
+      "U_boundary": 0.0012846514582633972,
+      "U_interior": 0.0,
+      "U_background": 2.7791311367764138e-06,
+      "id": "438",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2112.0,
+      "label": 0,
+      "dice": 0.9599620699882507,
+      "U_boundary": 0.0019292974611744285,
+      "U_interior": 3.807316874965272e-14,
+      "U_background": 1.6976471617358158e-10,
+      "id": "439",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2244.0,
+      "label": 0,
+      "dice": 0.9769213795661926,
+      "U_boundary": 0.0011650433298200369,
+      "U_interior": 1.4606881242745784e-12,
+      "U_background": 1.410473959850833e-10,
+      "id": "440",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1746.0,
+      "label": 0,
+      "dice": 0.9566896557807922,
+      "U_boundary": 0.0012517180293798447,
+      "U_interior": 8.207589613035948e-18,
+      "U_background": 1.053424777963663e-10,
+      "id": "441",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1717.0,
+      "label": 0,
+      "dice": 0.9399999976158142,
+      "U_boundary": 0.0009877090342342854,
+      "U_interior": 8.822216604985594e-16,
+      "U_background": 5.055581482338312e-07,
+      "id": "697",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2229.0,
+      "label": 0,
+      "dice": 0.9599099159240723,
+      "U_boundary": 0.0014012361643835902,
+      "U_interior": 3.4479441735546165e-14,
+      "U_background": 1.177307140665107e-10,
+      "id": "698",
+      "class": "Meningioma"
+    },
+    {
+      "area": 2147.0,
+      "label": 0,
+      "dice": 0.9677867889404297,
+      "U_boundary": 0.0012720501981675625,
+      "U_interior": 0.0,
+      "U_background": 9.350771545957315e-11,
+      "id": "699",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1471.0,
+      "label": 0,
+      "dice": 0.9609195590019226,
+      "U_boundary": 0.002467759884893894,
+      "U_interior": 0.0,
+      "U_background": 2.92345314623077e-10,
+      "id": "700",
+      "class": "Meningioma"
+    },
+    {
+      "area": 1213.0,
+      "label": 0,
+      "dice": 0.9353484511375427,
+      "U_boundary": 0.0011664656922221184,
+      "U_interior": 8.920074965126923e-13,
+      "U_background": 1.785722403280232e-10,
+      "id": "701",
+      "class": "Meningioma"
+    },
+    {
+      "area": 820.0,
+      "label": 0,
+      "dice": 0.902255654335022,
+      "U_boundary": 0.0017407640116289258,
+      "U_interior": 2.2806110298867477e-12,
+      "U_background": 1.2093874512952851e-10,
+      "id": "702",
+      "class": "Meningioma"
+    },
+    {
+      "area": 464.0,
+      "label": 1,
+      "dice": 0.3814713954925537,
+      "U_boundary": 0.0010456829331815243,
+      "U_interior": 0.0038027092814445496,
+      "U_background": 6.586028575839009e-06,
+      "id": "844",
+      "class": "Glioma"
+    },
+    {
+      "area": 490.0,
+      "label": 1,
+      "dice": 0.4262295067310333,
+      "U_boundary": 0.0009485874325037003,
+      "U_interior": 0.00896107591688633,
+      "U_background": 2.0714098354801536e-05,
+      "id": "845",
+      "class": "Glioma"
+    },
+    {
+      "area": 369.0,
+      "label": 1,
+      "dice": 0.8265460133552551,
+      "U_boundary": 0.0015046909684315324,
+      "U_interior": 2.790730146973175e-11,
+      "U_background": 1.8242381563671195e-11,
+      "id": "2144",
+      "class": "Glioma"
+    },
+    {
+      "area": 399.0,
+      "label": 1,
+      "dice": 0.8399999737739563,
+      "U_boundary": 0.0011291502742096782,
+      "U_interior": 0.0,
+      "U_background": 1.3067809732092428e-06,
+      "id": "2145",
+      "class": "Glioma"
+    },
+    {
+      "area": 385.0,
+      "label": 1,
+      "dice": 0.8305555582046509,
+      "U_boundary": 0.0011331645073369145,
+      "U_interior": 0.0002699632022995502,
+      "U_background": 1.5843881762123146e-11,
+      "id": "2680",
+      "class": "Glioma"
+    },
+    {
+      "area": 280.0,
+      "label": 1,
+      "dice": 0.8816466331481934,
+      "U_boundary": 0.0023070131428539753,
+      "U_interior": 0.0,
+      "U_background": 5.2749630441439876e-08,
+      "id": "2681",
+      "class": "Glioma"
+    },
+    {
+      "area": 189.0,
+      "label": 1,
+      "dice": 0.7991266250610352,
+      "U_boundary": 0.0013846593210473657,
+      "U_interior": 0.0,
+      "U_background": 1.41895384331292e-11,
+      "id": "2750",
+      "class": "Glioma"
+    },
+    {
+      "area": 191.0,
+      "label": 1,
+      "dice": 0.7221171855926514,
+      "U_boundary": 0.002199199516326189,
+      "U_interior": 0.0,
+      "U_background": 6.242180916160578e-06,
+      "id": "2751",
+      "class": "Glioma"
+    },
+    {
+      "area": 150.0,
+      "label": 1,
+      "dice": 0.7621951103210449,
+      "U_boundary": 0.00156486127525568,
+      "U_interior": 0.0,
+      "U_background": 1.898623966378743e-11,
+      "id": "2752",
+      "class": "Glioma"
+    },
+    {
+      "area": 487.0,
+      "label": 1,
+      "dice": 0.37328094244003296,
+      "U_boundary": 0.0009814107324928045,
+      "U_interior": 2.0080555817509515e-16,
+      "U_background": 3.264113547629677e-05,
+      "id": "2186",
+      "class": "Glioma"
+    },
+    {
+      "area": 1028.0,
+      "label": 1,
+      "dice": 0.7995328903198242,
+      "U_boundary": 0.0011229263618588448,
+      "U_interior": 0.0,
+      "U_background": 1.72350828506751e-05,
+      "id": "2187",
+      "class": "Glioma"
+    },
+    {
+      "area": 1501.0,
+      "label": 1,
+      "dice": 0.8573878407478333,
+      "U_boundary": 0.001983645372092724,
+      "U_interior": 0.0,
+      "U_background": 3.2864074455574155e-05,
+      "id": "2188",
+      "class": "Glioma"
+    },
+    {
+      "area": 1844.0,
+      "label": 1,
+      "dice": 0.8020148873329163,
+      "U_boundary": 0.0005368198035284877,
+      "U_interior": 1.0764150941989302e-16,
+      "U_background": 3.054915941902436e-05,
+      "id": "2189",
+      "class": "Glioma"
+    },
+    {
+      "area": 3062.0,
+      "label": 1,
+      "dice": 0.8559718728065491,
+      "U_boundary": 0.00044790079118683934,
+      "U_interior": 1.3880609335548133e-11,
+      "U_background": 8.760244782024529e-06,
+      "id": "2190",
+      "class": "Glioma"
+    },
+    {
+      "area": 2427.0,
+      "label": 1,
+      "dice": 0.7616507411003113,
+      "U_boundary": 0.0006816640379838645,
+      "U_interior": 3.6592749763671834e-17,
+      "U_background": 2.8734149964293465e-05,
+      "id": "2191",
+      "class": "Glioma"
+    },
+    {
+      "area": 2424.0,
+      "label": 1,
+      "dice": 0.913301408290863,
+      "U_boundary": 0.0005983711453154683,
+      "U_interior": 3.012830548330134e-16,
+      "U_background": 6.985198979236884e-06,
+      "id": "2192",
+      "class": "Glioma"
+    },
+    {
+      "area": 1707.0,
+      "label": 1,
+      "dice": 0.6268491148948669,
+      "U_boundary": 0.0004896515747532248,
+      "U_interior": 1.4703005686210019e-16,
+      "U_background": 6.889707583468407e-05,
+      "id": "2193",
+      "class": "Glioma"
+    },
+    {
+      "area": 1286.0,
+      "label": 1,
+      "dice": 0.9329696297645569,
+      "U_boundary": 0.0011391729349270463,
+      "U_interior": 6.789782901498939e-14,
+      "U_background": 7.273567304011408e-10,
+      "id": "2194",
+      "class": "Glioma"
+    },
+    {
+      "area": 644.0,
+      "label": 1,
+      "dice": 0.922957181930542,
+      "U_boundary": 0.0009786633308976889,
+      "U_interior": 1.047295591720919e-13,
+      "U_background": 2.7718587841674136e-11,
+      "id": "2195",
+      "class": "Glioma"
+    },
+    {
+      "area": 935.0,
+      "label": 1,
+      "dice": 0.9152365922927856,
+      "U_boundary": 0.0011324298102408648,
+      "U_interior": 3.2262481756269396e-16,
+      "U_background": 3.6239591736375587e-06,
+      "id": "2442",
+      "class": "Glioma"
+    },
+    {
+      "area": 1617.0,
+      "label": 1,
+      "dice": 0.8558336496353149,
+      "U_boundary": 0.0012533864937722683,
+      "U_interior": 0.00040614328463561833,
+      "U_background": 4.131962827447211e-11,
+      "id": "2723",
+      "class": "Glioma"
+    },
+    {
+      "area": 2563.0,
+      "label": 1,
+      "dice": 0.877920925617218,
+      "U_boundary": 0.0006402317085303366,
+      "U_interior": 0.00024410741752944887,
+      "U_background": 2.1988609544276727e-10,
+      "id": "2724",
+      "class": "Glioma"
+    },
+    {
+      "area": 2226.0,
+      "label": 1,
+      "dice": 0.9293578267097473,
+      "U_boundary": 0.0010961339576169848,
+      "U_interior": 3.903862670995295e-05,
+      "U_background": 1.6086115692814928e-06,
+      "id": "2725",
+      "class": "Glioma"
+    },
+    {
+      "area": 3439.0,
+      "label": 1,
+      "dice": 0.9266026616096497,
+      "U_boundary": 0.0012881520669907331,
+      "U_interior": 0.00010374714474892244,
+      "U_background": 1.2924350478726865e-10,
+      "id": "2726",
+      "class": "Glioma"
+    },
+    {
+      "area": 3593.0,
+      "label": 1,
+      "dice": 0.9395836591720581,
+      "U_boundary": 0.001872576423920691,
+      "U_interior": 3.696048267443075e-08,
+      "U_background": 1.7617908520950465e-10,
+      "id": "2727",
+      "class": "Glioma"
+    },
+    {
+      "area": 3122.0,
+      "label": 1,
+      "dice": 0.9713631272315979,
+      "U_boundary": 0.0010420569451525807,
+      "U_interior": 2.0916595278724914e-12,
+      "U_background": 2.3303753371450853e-10,
+      "id": "2728",
+      "class": "Glioma"
+    },
+    {
+      "area": 2482.0,
+      "label": 1,
+      "dice": 0.9020509719848633,
+      "U_boundary": 0.000917866884265095,
+      "U_interior": 1.545709255035277e-10,
+      "U_background": 1.119890293921344e-05,
+      "id": "2729",
+      "class": "Glioma"
+    },
+    {
+      "area": 1681.0,
+      "label": 1,
+      "dice": 0.955503523349762,
+      "U_boundary": 0.00042124095489270985,
+      "U_interior": 6.173264421119731e-19,
+      "U_background": 7.67584310779057e-07,
+      "id": "2730",
+      "class": "Glioma"
+    },
+    {
+      "area": 160.0,
+      "label": 1,
+      "dice": 1.0593220745036547e-09,
+      "U_boundary": 2.5492255875669834e-12,
+      "U_interior": 6.4834591688434084e-12,
+      "U_background": 3.633183951023966e-05,
+      "id": "2146",
+      "class": "Glioma"
+    },
+    {
+      "area": 834.0,
+      "label": 1,
+      "dice": 0.01164556946605444,
+      "U_boundary": 0.0036437963135540485,
+      "U_interior": 4.752122740453446e-12,
+      "U_background": 0.0002967819746118039,
+      "id": "2147",
+      "class": "Glioma"
+    },
+    {
+      "area": 413.0,
+      "label": 1,
+      "dice": 0.8805969953536987,
+      "U_boundary": 0.0010484440717846155,
+      "U_interior": 0.0,
+      "U_background": 1.2198453185063851e-11,
+      "id": "2148",
+      "class": "Glioma"
+    },
+    {
+      "area": 323.0,
+      "label": 1,
+      "dice": 0.9235668778419495,
+      "U_boundary": 0.0013651493936777115,
+      "U_interior": 0.0,
+      "U_background": 5.1128105221787123e-11,
+      "id": "2149",
+      "class": "Glioma"
+    },
+    {
+      "area": 175.0,
+      "label": 1,
+      "dice": 0.7430998086929321,
+      "U_boundary": 0.001437620259821415,
+      "U_interior": 0.0,
+      "U_background": 4.685426802097936e-08,
+      "id": "2150",
+      "class": "Glioma"
+    },
+    {
+      "area": 229.0,
+      "label": 1,
+      "dice": 0.15235792100429535,
+      "U_boundary": 0.0011217516148462892,
+      "U_interior": 0.01200603786855936,
+      "U_background": 6.937997386557981e-05,
+      "id": "2151",
+      "class": "Glioma"
+    },
+    {
+      "area": 190.0,
+      "label": 1,
+      "dice": 1.7793594375703492e-09,
+      "U_boundary": 2.2812618283296615e-07,
+      "U_interior": 9.399392979503318e-07,
+      "U_background": 8.466053986921906e-05,
+      "id": "2152",
+      "class": "Glioma"
+    },
+    {
+      "area": 497.0,
+      "label": 1,
+      "dice": 0.8435609340667725,
+      "U_boundary": 0.0013118817005306482,
+      "U_interior": 0.0,
+      "U_background": 1.8665099332793034e-06,
+      "id": "2682",
+      "class": "Glioma"
+    },
+    {
+      "area": 774.0,
+      "label": 1,
+      "dice": 0.4442211091518402,
+      "U_boundary": 2.1420762570407287e-13,
+      "U_interior": 0.0009217303013429046,
+      "U_background": 1.493081179526623e-11,
+      "id": "2683",
+      "class": "Glioma"
+    },
+    {
+      "area": 606.0,
+      "label": 1,
+      "dice": 0.5397210717201233,
+      "U_boundary": 0.0008988861227408051,
+      "U_interior": 0.0002463327837176621,
+      "U_background": 1.9889339455403388e-05,
+      "id": "2684",
+      "class": "Glioma"
+    },
+    {
+      "area": 479.0,
+      "label": 1,
+      "dice": 0.8541423678398132,
+      "U_boundary": 0.0009997781598940492,
+      "U_interior": 2.6947582078100385e-13,
+      "U_background": 2.1755298951209312e-11,
+      "id": "2685",
+      "class": "Glioma"
+    },
+    {
+      "area": 266.0,
+      "label": 1,
+      "dice": 0.23659305274486542,
+      "U_boundary": 0.0008967167814262211,
+      "U_interior": 0.0023273597471415997,
+      "U_background": 6.30887079751119e-05,
+      "id": "2686",
+      "class": "Glioma"
+    },
+    {
+      "area": 215.0,
+      "label": 1,
+      "dice": 9.960159363942012e-10,
+      "U_boundary": 3.994008682811634e-12,
+      "U_interior": 3.1868285788050343e-11,
+      "U_background": 3.955770444008522e-05,
+      "id": "2687",
+      "class": "Glioma"
+    },
+    {
+      "area": 116.0,
+      "label": 1,
+      "dice": 0.3342939615249634,
+      "U_boundary": 0.0009445473551750183,
+      "U_interior": 0.0,
+      "U_background": 0.00011718227324308828,
+      "id": "2753",
+      "class": "Glioma"
+    },
+    {
+      "area": 351.0,
+      "label": 1,
+      "dice": 0.4009750187397003,
+      "U_boundary": 0.0007909624837338924,
+      "U_interior": 0.0,
+      "U_background": 4.7549099690513685e-05,
+      "id": "2754",
+      "class": "Glioma"
+    },
+    {
+      "area": 260.0,
+      "label": 1,
+      "dice": 0.7396870851516724,
+      "U_boundary": 0.0012713681207969785,
+      "U_interior": 0.0,
+      "U_background": 8.835592780087609e-06,
+      "id": "2755",
+      "class": "Glioma"
+    },
+    {
+      "area": 126.0,
+      "label": 1,
+      "dice": 0.6631016135215759,
+      "U_boundary": 0.0006905188784003258,
+      "U_interior": 0.0,
+      "U_background": 2.5062485292437486e-05,
+      "id": "2756",
+      "class": "Glioma"
+    },
+    {
+      "area": 88.0,
+      "label": 1,
+      "dice": 1.302083330045889e-09,
+      "U_boundary": 3.339477566005611e-12,
+      "U_interior": 1.0222375029789177e-11,
+      "U_background": 2.2577618437935598e-05,
+      "id": "2757",
+      "class": "Glioma"
+    },
+    {
+      "area": 1442.0,
+      "label": 1,
+      "dice": 0.7566900253295898,
+      "U_boundary": 0.0008839351357892156,
+      "U_interior": 0.0014421854866668582,
+      "U_background": 1.1420210284995846e-05,
+      "id": "2179",
+      "class": "Glioma"
+    },
+    {
+      "area": 1669.0,
+      "label": 1,
+      "dice": 0.03699474781751633,
+      "U_boundary": 0.0005869815940968692,
+      "U_interior": 0.0008226099307648838,
+      "U_background": 9.698957001091912e-05,
+      "id": "2180",
+      "class": "Glioma"
+    },
+    {
+      "area": 1106.0,
+      "label": 1,
+      "dice": 0.7795552015304565,
+      "U_boundary": 0.0008977922261692584,
+      "U_interior": 0.0003030796069651842,
+      "U_background": 2.441789911244996e-05,
+      "id": "2181",
+      "class": "Glioma"
+    },
+    {
+      "area": 1429.0,
+      "label": 1,
+      "dice": 0.7897850871086121,
+      "U_boundary": 0.0019213929772377014,
+      "U_interior": 2.2076783352531493e-06,
+      "U_background": 7.397457375191152e-05,
+      "id": "2182",
+      "class": "Glioma"
+    },
+    {
+      "area": 3478.0,
+      "label": 1,
+      "dice": 0.7531815767288208,
+      "U_boundary": 0.0002373016468482092,
+      "U_interior": 0.0010345454793423414,
+      "U_background": 5.5030549561685405e-11,
+      "id": "2183",
+      "class": "Glioma"
+    },
+    {
+      "area": 2126.0,
+      "label": 1,
+      "dice": 0.7170562148094177,
+      "U_boundary": 0.0011455517960712314,
+      "U_interior": 0.0007449797121807933,
+      "U_background": 4.656995952245779e-05,
+      "id": "2184",
+      "class": "Glioma"
+    },
+    {
+      "area": 672.0,
+      "label": 1,
+      "dice": 0.418800413608551,
+      "U_boundary": 0.002008367795497179,
+      "U_interior": 1.4898893230252952e-10,
+      "U_background": 0.00012315623462200165,
+      "id": "2185",
+      "class": "Glioma"
+    },
+    {
+      "area": 557.0,
+      "label": 1,
+      "dice": 5.002501191064823e-10,
+      "U_boundary": 0.0007692252984270453,
+      "U_interior": 3.0742804135730495e-11,
+      "U_background": 0.00019709816842805594,
+      "id": "2714",
+      "class": "Glioma"
+    },
+    {
+      "area": 671.0,
+      "label": 1,
+      "dice": 0.7976710200309753,
+      "U_boundary": 0.0033036915119737387,
+      "U_interior": 0.006181824486702681,
+      "U_background": 6.614670382987242e-06,
+      "id": "2715",
+      "class": "Glioma"
+    },
+    {
+      "area": 1056.0,
+      "label": 1,
+      "dice": 0.7060333490371704,
+      "U_boundary": 0.001091785030439496,
+      "U_interior": 0.0008125561289489269,
+      "U_background": 2.89079180220142e-05,
+      "id": "2716",
+      "class": "Glioma"
+    },
+    {
+      "area": 921.0,
+      "label": 1,
+      "dice": 0.730358898639679,
+      "U_boundary": 0.0008352799341082573,
+      "U_interior": 0.0004696986870840192,
+      "U_background": 1.0579122317722067e-05,
+      "id": "2717",
+      "class": "Glioma"
+    },
+    {
+      "area": 1226.0,
+      "label": 1,
+      "dice": 0.5359477400779724,
+      "U_boundary": 0.0004037058097310364,
+      "U_interior": 0.0005368873826228082,
+      "U_background": 3.618640456726219e-11,
+      "id": "2718",
+      "class": "Glioma"
+    },
+    {
+      "area": 1299.0,
+      "label": 1,
+      "dice": 0.7833648324012756,
+      "U_boundary": 0.0009339948301203549,
+      "U_interior": 0.00024596392177045345,
+      "U_background": 4.300524233258329e-05,
+      "id": "2719",
+      "class": "Glioma"
+    },
+    {
+      "area": 1631.0,
+      "label": 1,
+      "dice": 0.5953019857406616,
+      "U_boundary": 0.0005913062486797571,
+      "U_interior": 0.0013185286661610007,
+      "U_background": 4.199240356683731e-05,
+      "id": "2720",
+      "class": "Glioma"
+    },
+    {
+      "area": 1591.0,
+      "label": 1,
+      "dice": 0.6944378614425659,
+      "U_boundary": 0.0021171318367123604,
+      "U_interior": 0.00016973679885268211,
+      "U_background": 7.145479321479797e-05,
+      "id": "2721",
+      "class": "Glioma"
+    },
+    {
+      "area": 1776.0,
+      "label": 1,
+      "dice": 0.6161026954650879,
+      "U_boundary": 0.0010179047239944339,
+      "U_interior": 0.0008363304077647626,
+      "U_background": 3.62395730917342e-05,
+      "id": "2722",
+      "class": "Glioma"
+    },
+    {
+      "area": 454.0,
+      "label": 1,
+      "dice": 0.5151335597038269,
+      "U_boundary": 0.00024633886641822755,
+      "U_interior": 3.1100630404345964e-10,
+      "U_background": 3.5949258744949475e-05,
+      "id": "2780",
+      "class": "Glioma"
+    },
+    {
+      "area": 620.0,
+      "label": 1,
+      "dice": 0.503950834274292,
+      "U_boundary": 0.002990099834278226,
+      "U_interior": 0.000979136792011559,
+      "U_background": 3.267603096901439e-05,
+      "id": "2781",
+      "class": "Glioma"
+    },
+    {
+      "area": 921.0,
+      "label": 1,
+      "dice": 0.7982726693153381,
+      "U_boundary": 0.0024650797713547945,
+      "U_interior": 0.0011602977756410837,
+      "U_background": 8.415219632240678e-09,
+      "id": "2782",
+      "class": "Glioma"
+    },
+    {
+      "area": 1473.0,
+      "label": 1,
+      "dice": 0.836693525314331,
+      "U_boundary": 0.0018572976114228368,
+      "U_interior": 0.00016600075468886644,
+      "U_background": 3.5575503716245294e-05,
+      "id": "2783",
+      "class": "Glioma"
+    },
+    {
+      "area": 1263.0,
+      "label": 1,
+      "dice": 0.47255638241767883,
+      "U_boundary": 0.0013043442741036415,
+      "U_interior": 2.310692056532032e-13,
+      "U_background": 7.059659401420504e-05,
+      "id": "2784",
+      "class": "Glioma"
+    },
+    {
+      "area": 1015.0,
+      "label": 1,
+      "dice": 0.41298213601112366,
+      "U_boundary": 0.0021048584021627903,
+      "U_interior": 0.00044677683035843074,
+      "U_background": 6.991119153099135e-05,
+      "id": "2785",
+      "class": "Glioma"
+    },
+    {
+      "area": 1626.0,
+      "label": 1,
+      "dice": 0.6425523161888123,
+      "U_boundary": 0.0007331509259529412,
+      "U_interior": 3.176066298848923e-09,
+      "U_background": 4.657646422856487e-05,
+      "id": "2786",
+      "class": "Glioma"
+    },
+    {
+      "area": 709.0,
+      "label": 1,
+      "dice": 0.7975270748138428,
+      "U_boundary": 0.0016944447997957468,
+      "U_interior": 0.0006110302056185901,
+      "U_background": 1.2019926720618912e-10,
+      "id": "1879",
+      "class": "Glioma"
+    },
+    {
+      "area": 268.0,
+      "label": 1,
+      "dice": 0.4353518784046173,
+      "U_boundary": 0.00036099477438256145,
+      "U_interior": 0.0,
+      "U_background": 5.0378861487843096e-05,
+      "id": "1880",
+      "class": "Glioma"
+    },
+    {
+      "area": 309.0,
+      "label": 1,
+      "dice": 0.2725552022457123,
+      "U_boundary": 0.000770885031670332,
+      "U_interior": 0.00031397014390677214,
+      "U_background": 6.383773143170401e-05,
+      "id": "2244",
+      "class": "Glioma"
+    },
+    {
+      "area": 418.0,
+      "label": 1,
+      "dice": 0.8852813839912415,
+      "U_boundary": 0.00158074835781008,
+      "U_interior": 0.0,
+      "U_background": 4.1760067626128716e-11,
+      "id": "2245",
+      "class": "Glioma"
+    },
+    {
+      "area": 446.0,
+      "label": 1,
+      "dice": 0.9336384534835815,
+      "U_boundary": 0.0017669074004516006,
+      "U_interior": 0.0,
+      "U_background": 6.423003795497095e-11,
+      "id": "2246",
+      "class": "Glioma"
+    },
+    {
+      "area": 324.0,
+      "label": 1,
+      "dice": 0.1656968742609024,
+      "U_boundary": 0.0017170809442177415,
+      "U_interior": 5.042941324945316e-12,
+      "U_background": 0.00014830609143245965,
+      "id": "2854",
+      "class": "Glioma"
+    },
+    {
+      "area": 495.0,
+      "label": 1,
+      "dice": 0.21548821032047272,
+      "U_boundary": 0.0005156458355486393,
+      "U_interior": 1.3212218163971556e-07,
+      "U_background": 4.9785274313762784e-05,
+      "id": "2855",
+      "class": "Glioma"
+    },
+    {
+      "area": 249.0,
+      "label": 1,
+      "dice": 0.18813751637935638,
+      "U_boundary": 0.0027844596188515425,
+      "U_interior": 0.0,
+      "U_background": 8.681248436914757e-05,
+      "id": "2856",
+      "class": "Glioma"
+    },
+    {
+      "area": 167.0,
+      "label": 1,
+      "dice": 0.1083197370171547,
+      "U_boundary": 0.0008107854519039392,
+      "U_interior": 0.0,
+      "U_background": 3.6316709156380966e-05,
+      "id": "2857",
+      "class": "Glioma"
+    },
+    {
+      "area": 347.0,
+      "label": 1,
+      "dice": 0.8550295829772949,
+      "U_boundary": 0.0019323689630255103,
+      "U_interior": 1.1938965144508984e-05,
+      "U_background": 4.911400619533879e-09,
+      "id": "1881",
+      "class": "Glioma"
+    },
+    {
+      "area": 594.0,
+      "label": 1,
+      "dice": 0.7214953303337097,
+      "U_boundary": 0.0008405126282013953,
+      "U_interior": 0.0,
+      "U_background": 1.5445151802850887e-05,
+      "id": "1882",
+      "class": "Glioma"
+    },
+    {
+      "area": 796.0,
+      "label": 1,
+      "dice": 0.7807748913764954,
+      "U_boundary": 0.0010973045136779547,
+      "U_interior": 0.0,
+      "U_background": 1.4022464711160865e-05,
+      "id": "1883",
+      "class": "Glioma"
+    },
+    {
+      "area": 793.0,
+      "label": 1,
+      "dice": 0.940966010093689,
+      "U_boundary": 0.001065308810211718,
+      "U_interior": 0.0,
+      "U_background": 2.4681130403325646e-11,
+      "id": "1884",
+      "class": "Glioma"
+    },
+    {
+      "area": 713.0,
+      "label": 1,
+      "dice": 0.5976613163948059,
+      "U_boundary": 0.0006471710512414575,
+      "U_interior": 6.4937259975988374e-15,
+      "U_background": 9.011900692712516e-05,
+      "id": "2247",
+      "class": "Glioma"
+    },
+    {
+      "area": 877.0,
+      "label": 1,
+      "dice": 0.8377968668937683,
+      "U_boundary": 0.0011634775437414646,
+      "U_interior": 1.8128669240422262e-15,
+      "U_background": 3.08648195641581e-05,
+      "id": "2248",
+      "class": "Glioma"
+    },
+    {
+      "area": 827.0,
+      "label": 1,
+      "dice": 0.3797603249549866,
+      "U_boundary": 0.0009607176762074232,
+      "U_interior": 0.00022147329582367092,
+      "U_background": 0.0001404442300554365,
+      "id": "2249",
+      "class": "Glioma"
+    },
+    {
+      "area": 766.0,
+      "label": 1,
+      "dice": 0.8679245114326477,
+      "U_boundary": 0.0015972312539815903,
+      "U_interior": 5.3621974075213075e-05,
+      "U_background": 3.416836534597678e-06,
+      "id": "2858",
+      "class": "Glioma"
+    },
+    {
+      "area": 888.0,
+      "label": 1,
+      "dice": 0.9546218514442444,
+      "U_boundary": 0.0014146411558613181,
+      "U_interior": 5.455222638972409e-18,
+      "U_background": 1.8721401165433527e-11,
+      "id": "2859",
+      "class": "Glioma"
+    },
+    {
+      "area": 818.0,
+      "label": 1,
+      "dice": 0.6397058963775635,
+      "U_boundary": 0.002322377869859338,
+      "U_interior": 2.092584550084098e-09,
+      "U_background": 0.0001037824695231393,
+      "id": "2860",
+      "class": "Glioma"
+    },
+    {
+      "area": 1429.0,
+      "label": 1,
+      "dice": 0.07838179171085358,
+      "U_boundary": 0.00161327188834548,
+      "U_interior": 0.001126937917433679,
+      "U_background": 7.308528438443318e-05,
+      "id": "2077",
+      "class": "Glioma"
+    },
+    {
+      "area": 1873.0,
+      "label": 1,
+      "dice": 3.077870180945297e-10,
+      "U_boundary": 8.691733856085182e-13,
+      "U_interior": 2.313799759429136e-12,
+      "U_background": 2.8680680770776235e-05,
+      "id": "2078",
+      "class": "Glioma"
+    },
+    {
+      "area": 992.0,
+      "label": 1,
+      "dice": 0.5407518744468689,
+      "U_boundary": 0.0018745682900771499,
+      "U_interior": 1.6514875133665646e-13,
+      "U_background": 3.648778874776326e-05,
+      "id": "2079",
+      "class": "Glioma"
+    },
+    {
+      "area": 1925.0,
+      "label": 1,
+      "dice": 0.8656938076019287,
+      "U_boundary": 0.0009404336451552808,
+      "U_interior": 0.00017572361684869975,
+      "U_background": 6.220639079401735e-06,
+      "id": "2608",
+      "class": "Glioma"
+    },
+    {
+      "area": 1032.0,
+      "label": 1,
+      "dice": 0.7492732405662537,
+      "U_boundary": 0.0015944207552820444,
+      "U_interior": 7.218212017989398e-16,
+      "U_background": 2.766860052361153e-05,
+      "id": "2609",
+      "class": "Glioma"
+    },
+    {
+      "area": 1424.0,
+      "label": 1,
+      "dice": 0.9373918771743774,
+      "U_boundary": 0.0014545368030667305,
+      "U_interior": 1.8065926333645584e-16,
+      "U_background": 2.433373310850584e-06,
+      "id": "2610",
+      "class": "Glioma"
+    },
+    {
+      "area": 869.0,
+      "label": 1,
+      "dice": 0.692995548248291,
+      "U_boundary": 0.0015755220083519816,
+      "U_interior": 0.0003071074897889048,
+      "U_background": 3.2151103113164936e-08,
+      "id": "2611",
+      "class": "Glioma"
+    },
+    {
+      "area": 745.0,
+      "label": 1,
+      "dice": 7.117437750281397e-10,
+      "U_boundary": 4.692771236707027e-13,
+      "U_interior": 7.532856716868652e-13,
+      "U_background": 3.0255374440457672e-05,
+      "id": "2993",
+      "class": "Glioma"
+    },
+    {
+      "area": 1071.0,
+      "label": 1,
+      "dice": 4.2535092115159046e-10,
+      "U_boundary": 1.96013713073262e-12,
+      "U_interior": 2.456344155854495e-12,
+      "U_background": 4.650840855902061e-05,
+      "id": "2994",
+      "class": "Glioma"
+    },
+    {
+      "area": 1198.0,
+      "label": 1,
+      "dice": 0.8349514603614807,
+      "U_boundary": 0.0009221635409630835,
+      "U_interior": 2.68042844864258e-11,
+      "U_background": 1.1215530321351252e-05,
+      "id": "2995",
+      "class": "Glioma"
+    },
+    {
+      "area": 274.0,
+      "label": 1,
+      "dice": 0.8142644762992859,
+      "U_boundary": 0.0018097932916134596,
+      "U_interior": 0.0,
+      "U_background": 4.327074748289306e-06,
+      "id": "1950",
+      "class": "Glioma"
+    },
+    {
+      "area": 679.0,
+      "label": 1,
+      "dice": 0.9046652913093567,
+      "U_boundary": 0.00217416207306087,
+      "U_interior": 0.0,
+      "U_background": 8.833201531333046e-11,
+      "id": "1951",
+      "class": "Glioma"
+    },
+    {
+      "area": 1245.0,
+      "label": 1,
+      "dice": 0.8999269604682922,
+      "U_boundary": 0.001171659561805427,
+      "U_interior": 4.5112053198917423e-14,
+      "U_background": 1.8028277963821893e-06,
+      "id": "1952",
+      "class": "Glioma"
+    },
+    {
+      "area": 1033.0,
+      "label": 1,
+      "dice": 0.8439164161682129,
+      "U_boundary": 0.0008134468225762248,
+      "U_interior": 0.0,
+      "U_background": 1.1745562915166374e-05,
+      "id": "1953",
+      "class": "Glioma"
+    },
+    {
+      "area": 439.0,
+      "label": 1,
+      "dice": 0.9291166663169861,
+      "U_boundary": 0.001539184944704175,
+      "U_interior": 0.0,
+      "U_background": 2.9615615515510285e-11,
+      "id": "1954",
+      "class": "Glioma"
+    },
+    {
+      "area": 768.0,
+      "label": 1,
+      "dice": 0.8755948543548584,
+      "U_boundary": 0.00357568240724504,
+      "U_interior": 0.00015717549831606448,
+      "U_background": 8.132531547744293e-06,
+      "id": "1955",
+      "class": "Glioma"
+    },
+    {
+      "area": 840.0,
+      "label": 1,
+      "dice": 0.9655990600585938,
+      "U_boundary": 0.0009432306978851557,
+      "U_interior": 0.0,
+      "U_background": 4.280902021758237e-11,
+      "id": "1956",
+      "class": "Glioma"
+    },
+    {
+      "area": 1008.0,
+      "label": 1,
+      "dice": 0.8208296298980713,
+      "U_boundary": 0.0005393930478021502,
+      "U_interior": 7.427496166201308e-05,
+      "U_background": 3.7733909721282544e-06,
+      "id": "1957",
+      "class": "Glioma"
+    },
+    {
+      "area": 1036.0,
+      "label": 1,
+      "dice": 0.8155989050865173,
+      "U_boundary": 0.0009475669940002263,
+      "U_interior": 0.0002679797471500933,
+      "U_background": 1.565659962787791e-10,
+      "id": "1958",
+      "class": "Glioma"
+    },
+    {
+      "area": 196.0,
+      "label": 1,
+      "dice": 0.3236321210861206,
+      "U_boundary": 0.0009262681123800576,
+      "U_interior": 1.382961384299719e-10,
+      "U_background": 7.59257745812647e-05,
+      "id": "1959",
+      "class": "Glioma"
+    },
+    {
+      "area": 1210.0,
+      "label": 1,
+      "dice": 0.07722207903862,
+      "U_boundary": 0.00015682398225180805,
+      "U_interior": 0.002390607725828886,
+      "U_background": 0.00014784940867684782,
+      "id": "1960",
+      "class": "Glioma"
+    },
+    {
+      "area": 2015.0,
+      "label": 1,
+      "dice": 0.3293399214744568,
+      "U_boundary": 0.0002273105928907171,
+      "U_interior": 0.0002752149011939764,
+      "U_background": 0.00012759158562403172,
+      "id": "1961",
+      "class": "Glioma"
+    },
+    {
+      "area": 2058.0,
+      "label": 1,
+      "dice": 0.5286213755607605,
+      "U_boundary": 0.000475473003461957,
+      "U_interior": 0.0005550943315029144,
+      "U_background": 5.7162360462825745e-05,
+      "id": "1962",
+      "class": "Glioma"
+    },
+    {
+      "area": 1758.0,
+      "label": 1,
+      "dice": 0.629658579826355,
+      "U_boundary": 0.0007593896589241922,
+      "U_interior": 0.00043384337914176285,
+      "U_background": 3.126348747173324e-05,
+      "id": "1963",
+      "class": "Glioma"
+    },
+    {
+      "area": 270.0,
+      "label": 1,
+      "dice": 0.6549295783042908,
+      "U_boundary": 0.0006841043359600008,
+      "U_interior": 0.0002738650073297322,
+      "U_background": 9.624988706491422e-06,
+      "id": "2300",
+      "class": "Glioma"
+    },
+    {
+      "area": 1192.0,
+      "label": 1,
+      "dice": 0.2605583369731903,
+      "U_boundary": 0.0003592489811126143,
+      "U_interior": 0.00020796191529370844,
+      "U_background": 4.2210204775905424e-10,
+      "id": "2301",
+      "class": "Glioma"
+    },
+    {
+      "area": 403.0,
+      "label": 1,
+      "dice": 0.7880184054374695,
+      "U_boundary": 0.0012905487092211843,
+      "U_interior": 1.5108382684573922e-14,
+      "U_background": 2.3734726710245013e-05,
+      "id": "2302",
+      "class": "Glioma"
+    },
+    {
+      "area": 1246.0,
+      "label": 1,
+      "dice": 0.5080118775367737,
+      "U_boundary": 0.0009085409110412002,
+      "U_interior": 0.00036862422712147236,
+      "U_background": 1.466962107343761e-10,
+      "id": "2303",
+      "class": "Glioma"
+    },
+    {
+      "area": 1510.0,
+      "label": 1,
+      "dice": 0.8574643731117249,
+      "U_boundary": 0.0006633434095419943,
+      "U_interior": 0.0005764243542216718,
+      "U_background": 5.1208998846918874e-11,
+      "id": "2304",
+      "class": "Glioma"
+    },
+    {
+      "area": 1681.0,
+      "label": 1,
+      "dice": 0.8360167145729065,
+      "U_boundary": 0.0011553375516086817,
+      "U_interior": 0.0002653542615007609,
+      "U_background": 1.0609362107061315e-05,
+      "id": "2305",
+      "class": "Glioma"
+    },
+    {
+      "area": 1416.0,
+      "label": 1,
+      "dice": 0.7511982321739197,
+      "U_boundary": 0.0006412243819795549,
+      "U_interior": 0.0004451548447832465,
+      "U_background": 6.768902799381138e-11,
+      "id": "2306",
+      "class": "Glioma"
+    },
+    {
+      "area": 480.0,
+      "label": 1,
+      "dice": 0.8997772932052612,
+      "U_boundary": 0.000787669385317713,
+      "U_interior": 0.0,
+      "U_background": 3.3354284612041596e-11,
+      "id": "2307",
+      "class": "Glioma"
+    },
+    {
+      "area": 862.0,
+      "label": 1,
+      "dice": 0.8367071747779846,
+      "U_boundary": 0.00069591891951859,
+      "U_interior": 0.0011663950281217694,
+      "U_background": 3.168081075255458e-11,
+      "id": "2308",
+      "class": "Glioma"
+    },
+    {
+      "area": 850.0,
+      "label": 1,
+      "dice": 0.9526493549346924,
+      "U_boundary": 0.0008633881225250661,
+      "U_interior": 0.0,
+      "U_background": 6.287718956610178e-11,
+      "id": "2309",
+      "class": "Glioma"
+    },
+    {
+      "area": 845.0,
+      "label": 1,
+      "dice": 0.879387378692627,
+      "U_boundary": 0.0010587474098429084,
+      "U_interior": 1.0067153777271187e-09,
+      "U_background": 1.143971076089656e-05,
+      "id": "2310",
+      "class": "Glioma"
+    },
+    {
+      "area": 757.0,
+      "label": 1,
+      "dice": 0.833619236946106,
+      "U_boundary": 0.0012143270578235388,
+      "U_interior": 1.0874548848820794e-15,
+      "U_background": 9.865941137832124e-06,
+      "id": "2891",
+      "class": "Glioma"
+    },
+    {
+      "area": 1014.0,
+      "label": 1,
+      "dice": 0.7036780118942261,
+      "U_boundary": 0.0006376637611538172,
+      "U_interior": 4.207951817607487e-17,
+      "U_background": 1.8972019461216405e-05,
+      "id": "2892",
+      "class": "Glioma"
+    },
+    {
+      "area": 1291.0,
+      "label": 1,
+      "dice": 0.8104698657989502,
+      "U_boundary": 0.00046388767077587545,
+      "U_interior": 1.960118116060564e-17,
+      "U_background": 6.643065262323944e-06,
+      "id": "2893",
+      "class": "Glioma"
+    },
+    {
+      "area": 2782.0,
+      "label": 1,
+      "dice": 0.7953586578369141,
+      "U_boundary": 0.000467825768282637,
+      "U_interior": 0.0006951793329790235,
+      "U_background": 8.156496034139593e-10,
+      "id": "2894",
+      "class": "Glioma"
+    },
+    {
+      "area": 292.0,
+      "label": 1,
+      "dice": 0.5895598530769348,
+      "U_boundary": 0.000985554768703878,
+      "U_interior": 0.0,
+      "U_background": 1.2377671737340279e-05,
+      "id": "2895",
+      "class": "Glioma"
+    },
+    {
+      "area": 818.0,
+      "label": 1,
+      "dice": 0.9072737097740173,
+      "U_boundary": 0.0012962633045390248,
+      "U_interior": 0.0,
+      "U_background": 3.4487974975849767e-11,
+      "id": "2896",
+      "class": "Glioma"
+    },
+    {
+      "area": 1070.0,
+      "label": 1,
+      "dice": 0.9160714149475098,
+      "U_boundary": 0.0008116249227896333,
+      "U_interior": 1.1744507826399134e-18,
+      "U_background": 5.587585255595329e-11,
+      "id": "2897",
+      "class": "Glioma"
+    },
+    {
+      "area": 831.0,
+      "label": 1,
+      "dice": 0.9271371364593506,
+      "U_boundary": 0.0015765271382406354,
+      "U_interior": 0.0,
+      "U_background": 4.341881715275164e-11,
+      "id": "2898",
+      "class": "Glioma"
+    },
+    {
+      "area": 375.0,
+      "label": 1,
+      "dice": 0.28058362007141113,
+      "U_boundary": 0.001850144355557859,
+      "U_interior": 0.0,
+      "U_background": 5.264568972052075e-05,
+      "id": "2899",
+      "class": "Glioma"
+    },
+    {
+      "area": 503.0,
+      "label": 1,
+      "dice": 0.7831513285636902,
+      "U_boundary": 0.0011635668342933059,
+      "U_interior": 0.0,
+      "U_background": 6.58658291285974e-06,
+      "id": "2065",
+      "class": "Glioma"
+    },
+    {
+      "area": 636.0,
+      "label": 1,
+      "dice": 0.5043550133705139,
+      "U_boundary": 0.0016178087098523974,
+      "U_interior": 1.580191359706884e-11,
+      "U_background": 4.375577555038035e-05,
+      "id": "2066",
+      "class": "Glioma"
+    },
+    {
+      "area": 922.0,
+      "label": 1,
+      "dice": 0.43915069103240967,
+      "U_boundary": 0.001941192545928061,
+      "U_interior": 3.6369427469651328e-09,
+      "U_background": 5.533889270736836e-05,
+      "id": "2067",
+      "class": "Glioma"
+    },
+    {
+      "area": 568.0,
+      "label": 1,
+      "dice": 0.4092140793800354,
+      "U_boundary": 0.001474667456932366,
+      "U_interior": 9.997895566993265e-11,
+      "U_background": 1.711572076601442e-05,
+      "id": "2068",
+      "class": "Glioma"
+    },
+    {
+      "area": 918.0,
+      "label": 1,
+      "dice": 0.7174887657165527,
+      "U_boundary": 0.0007993843755684793,
+      "U_interior": 1.2465662289191493e-17,
+      "U_background": 4.565901690511964e-05,
+      "id": "2069",
+      "class": "Glioma"
+    },
+    {
+      "area": 1224.0,
+      "label": 1,
+      "dice": 0.7452772855758667,
+      "U_boundary": 0.0014740771148353815,
+      "U_interior": 5.171788887752481e-16,
+      "U_background": 5.480237086885609e-05,
+      "id": "2070",
+      "class": "Glioma"
+    },
+    {
+      "area": 1191.0,
+      "label": 1,
+      "dice": 0.8207646608352661,
+      "U_boundary": 0.0007401459151878953,
+      "U_interior": 5.374424050328536e-15,
+      "U_background": 1.0955748621199746e-05,
+      "id": "2071",
+      "class": "Glioma"
+    },
+    {
+      "area": 1190.0,
+      "label": 1,
+      "dice": 0.4907948970794678,
+      "U_boundary": 0.0013397566508501768,
+      "U_interior": 5.451475859272192e-13,
+      "U_background": 0.00014843263488728553,
+      "id": "2072",
+      "class": "Glioma"
+    },
+    {
+      "area": 2854.0,
+      "label": 1,
+      "dice": 0.568442165851593,
+      "U_boundary": 0.0012231472646817565,
+      "U_interior": 0.0006519235903397202,
+      "U_background": 5.0428461690898985e-05,
+      "id": "2073",
+      "class": "Glioma"
+    },
+    {
+      "area": 3711.0,
+      "label": 1,
+      "dice": 0.6415386199951172,
+      "U_boundary": 0.00074613350443542,
+      "U_interior": 0.00042680909973569214,
+      "U_background": 7.045682286843657e-05,
+      "id": "2074",
+      "class": "Glioma"
+    },
+    {
+      "area": 4357.0,
+      "label": 1,
+      "dice": 0.6795786023139954,
+      "U_boundary": 0.0005804132670164108,
+      "U_interior": 0.0002911666815634817,
+      "U_background": 6.494751869468018e-05,
+      "id": "2075",
+      "class": "Glioma"
+    },
+    {
+      "area": 3636.0,
+      "label": 1,
+      "dice": 0.709419310092926,
+      "U_boundary": 0.0006815554806962609,
+      "U_interior": 8.9603679953143e-05,
+      "U_background": 3.488543734420091e-05,
+      "id": "2076",
+      "class": "Glioma"
+    },
+    {
+      "area": 802.0,
+      "label": 1,
+      "dice": 4.0950040580689517e-10,
+      "U_boundary": 2.2935279977293055e-12,
+      "U_interior": 1.30939150581183e-12,
+      "U_background": 2.6374200388090685e-05,
+      "id": "2595",
+      "class": "Glioma"
+    },
+    {
+      "area": 832.0,
+      "label": 1,
+      "dice": 3.601008380371695e-10,
+      "U_boundary": 3.555402933869134e-12,
+      "U_interior": 3.3401207147343293e-12,
+      "U_background": 3.6047666071681306e-05,
+      "id": "2596",
+      "class": "Glioma"
+    },
+    {
+      "area": 1133.0,
+      "label": 1,
+      "dice": 0.6366822719573975,
+      "U_boundary": 0.0010491391876712441,
+      "U_interior": 8.190694118152307e-17,
+      "U_background": 3.2940602977760136e-05,
+      "id": "2597",
+      "class": "Glioma"
+    },
+    {
+      "area": 1035.0,
+      "label": 1,
+      "dice": 0.4570659399032593,
+      "U_boundary": 0.0012066725175827742,
+      "U_interior": 0.0008463162230327725,
+      "U_background": 7.667359022889286e-05,
+      "id": "2598",
+      "class": "Glioma"
+    },
+    {
+      "area": 650.0,
+      "label": 1,
+      "dice": 0.545117974281311,
+      "U_boundary": 0.001312065520323813,
+      "U_interior": 7.342975206559629e-15,
+      "U_background": 4.662725405069068e-05,
+      "id": "2599",
+      "class": "Glioma"
+    },
+    {
+      "area": 3403.0,
+      "label": 1,
+      "dice": 0.9266325235366821,
+      "U_boundary": 0.001184397959150374,
+      "U_interior": 0.00030502749723382294,
+      "U_background": 1.5303774913988377e-10,
+      "id": "2600",
+      "class": "Glioma"
+    },
+    {
+      "area": 3115.0,
+      "label": 1,
+      "dice": 0.8917707204818726,
+      "U_boundary": 0.0012036766856908798,
+      "U_interior": 0.00028856031713075936,
+      "U_background": 1.3748820492764935e-05,
+      "id": "2601",
+      "class": "Glioma"
+    },
+    {
+      "area": 2106.0,
+      "label": 1,
+      "dice": 0.7043968439102173,
+      "U_boundary": 0.0006764802383258939,
+      "U_interior": 0.00042945711174979806,
+      "U_background": 1.6163778127520345e-05,
+      "id": "2602",
+      "class": "Glioma"
+    },
+    {
+      "area": 1950.0,
+      "label": 1,
+      "dice": 0.7053120732307434,
+      "U_boundary": 0.0014972840435802937,
+      "U_interior": 0.00040337874088436365,
+      "U_background": 2.7167325242771767e-05,
+      "id": "2603",
+      "class": "Glioma"
+    },
+    {
+      "area": 1979.0,
+      "label": 1,
+      "dice": 0.5003500580787659,
+      "U_boundary": 0.00035178306279703975,
+      "U_interior": 0.00026044901460409164,
+      "U_background": 1.9900548068108037e-05,
+      "id": "2604",
+      "class": "Glioma"
+    },
+    {
+      "area": 1740.0,
+      "label": 1,
+      "dice": 0.4450167417526245,
+      "U_boundary": 0.0016659670509397984,
+      "U_interior": 0.002160041593015194,
+      "U_background": 2.067782770609483e-05,
+      "id": "2605",
+      "class": "Glioma"
+    },
+    {
+      "area": 3204.0,
+      "label": 1,
+      "dice": 0.6808961629867554,
+      "U_boundary": 0.0003820421115960926,
+      "U_interior": 0.0004587422008626163,
+      "U_background": 1.437660466763191e-05,
+      "id": "2606",
+      "class": "Glioma"
+    },
+    {
+      "area": 2410.0,
+      "label": 1,
+      "dice": 0.7844486236572266,
+      "U_boundary": 0.0013913681032136083,
+      "U_interior": 0.00012787153536919504,
+      "U_background": 5.184103429201059e-05,
+      "id": "2607",
+      "class": "Glioma"
+    },
+    {
+      "area": 1260.0,
+      "label": 1,
+      "dice": 0.6170056462287903,
+      "U_boundary": 0.00047801766777411103,
+      "U_interior": 3.775091528268604e-08,
+      "U_background": 2.079593286907766e-05,
+      "id": "2983",
+      "class": "Glioma"
+    },
+    {
+      "area": 1514.0,
+      "label": 1,
+      "dice": 0.7987220287322998,
+      "U_boundary": 0.0017991854110732675,
+      "U_interior": 4.876374044143761e-12,
+      "U_background": 3.587752871681005e-05,
+      "id": "2984",
+      "class": "Glioma"
+    },
+    {
+      "area": 1652.0,
+      "label": 1,
+      "dice": 0.693697452545166,
+      "U_boundary": 0.0008400079095736146,
+      "U_interior": 6.4721872202995814e-15,
+      "U_background": 3.324013596284203e-05,
+      "id": "2985",
+      "class": "Glioma"
+    },
+    {
+      "area": 1178.0,
+      "label": 1,
+      "dice": 0.6398826837539673,
+      "U_boundary": 0.0003558954631444067,
+      "U_interior": 3.652435771073215e-05,
+      "U_background": 3.0253102522692643e-05,
+      "id": "2986",
+      "class": "Glioma"
+    },
+    {
+      "area": 2876.0,
+      "label": 1,
+      "dice": 0.7390038967132568,
+      "U_boundary": 0.0006895551923662424,
+      "U_interior": 0.00023427000269293785,
+      "U_background": 3.592169741750695e-05,
+      "id": "2987",
+      "class": "Glioma"
+    },
+    {
+      "area": 3526.0,
+      "label": 1,
+      "dice": 0.8714368939399719,
+      "U_boundary": 0.003138953587040305,
+      "U_interior": 0.000355142867192626,
+      "U_background": 3.273571564932354e-05,
+      "id": "2988",
+      "class": "Glioma"
+    },
+    {
+      "area": 5344.0,
+      "label": 1,
+      "dice": 0.9052927494049072,
+      "U_boundary": 0.0006663833046332002,
+      "U_interior": 5.61281485715881e-05,
+      "U_background": 5.986342330288608e-06,
+      "id": "2989",
+      "class": "Glioma"
+    },
+    {
+      "area": 2777.0,
+      "label": 1,
+      "dice": 0.6387959718704224,
+      "U_boundary": 0.0016807137290015817,
+      "U_interior": 0.0001801988109946251,
+      "U_background": 4.3628115236060694e-05,
+      "id": "2990",
+      "class": "Glioma"
+    },
+    {
+      "area": 3121.0,
+      "label": 1,
+      "dice": 0.9405422210693359,
+      "U_boundary": 0.0009401130955666304,
+      "U_interior": 8.781093257040351e-13,
+      "U_background": 3.0637470445071813e-06,
+      "id": "2991",
+      "class": "Glioma"
+    },
+    {
+      "area": 2924.0,
+      "label": 1,
+      "dice": 0.8888188004493713,
+      "U_boundary": 0.0007063744124025106,
+      "U_interior": 5.255101041823362e-12,
+      "U_background": 1.8606959201861173e-05,
+      "id": "2992",
+      "class": "Glioma"
+    },
+    {
+      "area": 498.0,
+      "label": 1,
+      "dice": 0.8673977851867676,
+      "U_boundary": 0.0023877292405813932,
+      "U_interior": 4.0513403887438424e-17,
+      "U_background": 1.5713324738597656e-11,
+      "id": "2032",
+      "class": "Glioma"
+    },
+    {
+      "area": 1044.0,
+      "label": 1,
+      "dice": 0.9315589070320129,
+      "U_boundary": 0.0016611606115475297,
+      "U_interior": 9.19392391134724e-17,
+      "U_background": 1.7000181742332643e-06,
+      "id": "2033",
+      "class": "Glioma"
+    },
+    {
+      "area": 1436.0,
+      "label": 1,
+      "dice": 0.9469085931777954,
+      "U_boundary": 0.002518993802368641,
+      "U_interior": 2.0046660933857297e-17,
+      "U_background": 1.029177099098888e-07,
+      "id": "2034",
+      "class": "Glioma"
+    },
+    {
+      "area": 1603.0,
+      "label": 1,
+      "dice": 0.8986604809761047,
+      "U_boundary": 0.0022894740104675293,
+      "U_interior": 1.3323487329548874e-15,
+      "U_background": 7.594088401674526e-06,
+      "id": "2035",
+      "class": "Glioma"
+    },
+    {
+      "area": 1206.0,
+      "label": 1,
+      "dice": 0.9208074808120728,
+      "U_boundary": 0.0013280614512041211,
+      "U_interior": 0.0,
+      "U_background": 8.569105034439417e-07,
+      "id": "2036",
+      "class": "Glioma"
+    },
+    {
+      "area": 927.0,
+      "label": 1,
+      "dice": 0.9240957498550415,
+      "U_boundary": 0.0028633347246795893,
+      "U_interior": 2.732856513109434e-17,
+      "U_background": 1.543313373986166e-06,
+      "id": "2037",
+      "class": "Glioma"
+    },
+    {
+      "area": 332.0,
+      "label": 1,
+      "dice": 0.48715952038764954,
+      "U_boundary": 0.0038467440754175186,
+      "U_interior": 0.0,
+      "U_background": 7.299566641449928e-05,
+      "id": "2566",
+      "class": "Glioma"
+    },
+    {
+      "area": 749.0,
+      "label": 1,
+      "dice": 0.8398368954658508,
+      "U_boundary": 0.0010714494856074452,
+      "U_interior": 0.0,
+      "U_background": 4.822249593416927e-06,
+      "id": "2567",
+      "class": "Glioma"
+    },
+    {
+      "area": 1190.0,
+      "label": 1,
+      "dice": 0.9148056507110596,
+      "U_boundary": 0.0007220312254503369,
+      "U_interior": 1.2453540875867475e-05,
+      "U_background": 2.471685703331339e-11,
+      "id": "2568",
+      "class": "Glioma"
+    },
+    {
+      "area": 1339.0,
+      "label": 1,
+      "dice": 0.9406495094299316,
+      "U_boundary": 0.0022612279281020164,
+      "U_interior": 9.414734086021781e-05,
+      "U_background": 2.2777056629674775e-10,
+      "id": "2569",
+      "class": "Glioma"
+    },
+    {
+      "area": 1331.0,
+      "label": 1,
+      "dice": 0.9459853768348694,
+      "U_boundary": 0.0013152994215488434,
+      "U_interior": 5.943018738974626e-16,
+      "U_background": 1.1614994382957988e-10,
+      "id": "2570",
+      "class": "Glioma"
+    },
+    {
+      "area": 1168.0,
+      "label": 1,
+      "dice": 0.9036144614219666,
+      "U_boundary": 0.0013261536369100213,
+      "U_interior": 0.0001981487002922222,
+      "U_background": 8.406023793705586e-11,
+      "id": "2571",
+      "class": "Glioma"
+    },
+    {
+      "area": 601.0,
+      "label": 1,
+      "dice": 0.7236841917037964,
+      "U_boundary": 0.002172339241951704,
+      "U_interior": 0.0004519665380939841,
+      "U_background": 4.587257717503235e-05,
+      "id": "2572",
+      "class": "Glioma"
+    },
+    {
+      "area": 1005.0,
+      "label": 1,
+      "dice": 0.8827519416809082,
+      "U_boundary": 0.0017174204112961888,
+      "U_interior": 0.00011167779302923009,
+      "U_background": 3.2652737900207285e-06,
+      "id": "2944",
+      "class": "Glioma"
+    },
+    {
+      "area": 1634.0,
+      "label": 1,
+      "dice": 0.9283879995346069,
+      "U_boundary": 0.0005505800945684314,
+      "U_interior": 0.0,
+      "U_background": 8.908205018087756e-07,
+      "id": "2945",
+      "class": "Glioma"
+    },
+    {
+      "area": 1487.0,
+      "label": 1,
+      "dice": 0.8923820853233337,
+      "U_boundary": 0.0009560882463119924,
+      "U_interior": 0.0,
+      "U_background": 2.2237043140194146e-06,
+      "id": "2946",
+      "class": "Glioma"
+    },
+    {
+      "area": 899.0,
+      "label": 1,
+      "dice": 0.8511649966239929,
+      "U_boundary": 0.0022744648158550262,
+      "U_interior": 0.0,
+      "U_background": 7.500551419070689e-06,
+      "id": "2947",
+      "class": "Glioma"
+    },
+    {
+      "area": 843.0,
+      "label": 1,
+      "dice": 0.8674846887588501,
+      "U_boundary": 0.00183365389239043,
+      "U_interior": 0.00013743070303462446,
+      "U_background": 5.246383882884231e-11,
+      "id": "2038",
+      "class": "Glioma"
+    },
+    {
+      "area": 1110.0,
+      "label": 1,
+      "dice": 0.9460289478302002,
+      "U_boundary": 0.0010107625275850296,
+      "U_interior": 4.048676453581115e-18,
+      "U_background": 9.611299256473416e-11,
+      "id": "2039",
+      "class": "Glioma"
+    },
+    {
+      "area": 2035.0,
+      "label": 1,
+      "dice": 0.870169997215271,
+      "U_boundary": 0.0006405127933248878,
+      "U_interior": 0.00026307173538953066,
+      "U_background": 3.344523963333401e-11,
+      "id": "2040",
+      "class": "Glioma"
+    },
+    {
+      "area": 2148.0,
+      "label": 1,
+      "dice": 0.8939252495765686,
+      "U_boundary": 0.0015604858053848147,
+      "U_interior": 0.0003065616765525192,
+      "U_background": 8.928954230214003e-06,
+      "id": "2041",
+      "class": "Glioma"
+    },
+    {
+      "area": 1741.0,
+      "label": 1,
+      "dice": 0.943669855594635,
+      "U_boundary": 0.0014733315911144018,
+      "U_interior": 4.404041665432532e-16,
+      "U_background": 1.2437016694288872e-10,
+      "id": "2042",
+      "class": "Glioma"
+    },
+    {
+      "area": 1132.0,
+      "label": 1,
+      "dice": 0.916221022605896,
+      "U_boundary": 0.0008339660707861185,
+      "U_interior": 2.6016658445648932e-12,
+      "U_background": 2.252436258343149e-11,
+      "id": "2043",
+      "class": "Glioma"
+    },
+    {
+      "area": 1339.0,
+      "label": 1,
+      "dice": 0.4674115478992462,
+      "U_boundary": 0.0007518102065660059,
+      "U_interior": 0.0013829467352479696,
+      "U_background": 5.3473002481041476e-05,
+      "id": "2044",
+      "class": "Glioma"
+    },
+    {
+      "area": 1049.0,
+      "label": 1,
+      "dice": 0.8299376368522644,
+      "U_boundary": 0.0019267306197434664,
+      "U_interior": 1.0173421561895783e-15,
+      "U_background": 2.34216422541067e-05,
+      "id": "2573",
+      "class": "Glioma"
+    },
+    {
+      "area": 1443.0,
+      "label": 1,
+      "dice": 0.8560234904289246,
+      "U_boundary": 0.001466855639591813,
+      "U_interior": 5.138102642376907e-05,
+      "U_background": 1.210602840728825e-05,
+      "id": "2574",
+      "class": "Glioma"
+    },
+    {
+      "area": 1760.0,
+      "label": 1,
+      "dice": 0.872584879398346,
+      "U_boundary": 0.002490425482392311,
+      "U_interior": 1.7661116089584539e-06,
+      "U_background": 2.5121493308688514e-05,
+      "id": "2575",
+      "class": "Glioma"
+    },
+    {
+      "area": 2010.0,
+      "label": 1,
+      "dice": 0.9439839124679565,
+      "U_boundary": 0.0007801109459251165,
+      "U_interior": 7.100519724190235e-05,
+      "U_background": 1.674111543836787e-10,
+      "id": "2576",
+      "class": "Glioma"
+    },
+    {
+      "area": 1501.0,
+      "label": 1,
+      "dice": 0.9303101301193237,
+      "U_boundary": 0.0010227845050394535,
+      "U_interior": 2.1519432266359217e-05,
+      "U_background": 1.0517700599343982e-10,
+      "id": "2577",
+      "class": "Glioma"
+    },
+    {
+      "area": 863.0,
+      "label": 1,
+      "dice": 0.7984452843666077,
+      "U_boundary": 0.0011914534261450171,
+      "U_interior": 0.0001463053049519658,
+      "U_background": 9.396022505825385e-06,
+      "id": "2578",
+      "class": "Glioma"
+    },
+    {
+      "area": 1637.0,
+      "label": 1,
+      "dice": 0.8612388372421265,
+      "U_boundary": 0.0012254585744813085,
+      "U_interior": 2.595589985000291e-18,
+      "U_background": 2.3679929654463194e-05,
+      "id": "2948",
+      "class": "Glioma"
+    },
+    {
+      "area": 2476.0,
+      "label": 1,
+      "dice": 0.887165904045105,
+      "U_boundary": 0.0007555281626991928,
+      "U_interior": 0.00012167168461019173,
+      "U_background": 6.981791216276179e-07,
+      "id": "2949",
+      "class": "Glioma"
+    },
+    {
+      "area": 2663.0,
+      "label": 1,
+      "dice": 0.923276960849762,
+      "U_boundary": 0.0015358845703303814,
+      "U_interior": 9.819714614422992e-05,
+      "U_background": 3.822780703099937e-10,
+      "id": "2950",
+      "class": "Glioma"
+    },
+    {
+      "area": 2277.0,
+      "label": 1,
+      "dice": 0.9357759356498718,
+      "U_boundary": 0.001069488818757236,
+      "U_interior": 6.833059118527274e-11,
+      "U_background": 1.0990716670100653e-10,
+      "id": "2951",
+      "class": "Glioma"
+    },
+    {
+      "area": 1539.0,
+      "label": 1,
+      "dice": 0.8332874178886414,
+      "U_boundary": 0.0010512069566175342,
+      "U_interior": 5.460113344344129e-17,
+      "U_background": 2.604211840662174e-05,
+      "id": "2952",
+      "class": "Glioma"
+    },
+    {
+      "area": 684.0,
+      "label": 1,
+      "dice": 0.7097118496894836,
+      "U_boundary": 0.0010615616338327527,
+      "U_interior": 0.0,
+      "U_background": 3.387150354683399e-05,
+      "id": "2953",
+      "class": "Glioma"
+    },
+    {
+      "area": 280.0,
+      "label": 1,
+      "dice": 0.6682577729225159,
+      "U_boundary": 0.0011286251246929169,
+      "U_interior": 0.0,
+      "U_background": 9.282159226131625e-06,
+      "id": "2954",
+      "class": "Glioma"
+    },
+    {
+      "area": 603.0,
+      "label": 1,
+      "dice": 0.836918830871582,
+      "U_boundary": 0.0013581161620095372,
+      "U_interior": 0.0,
+      "U_background": 5.34313085154281e-06,
+      "id": "2061",
+      "class": "Glioma"
+    },
+    {
+      "area": 815.0,
+      "label": 1,
+      "dice": 0.9138755798339844,
+      "U_boundary": 0.002098372671753168,
+      "U_interior": 3.470830664976249e-14,
+      "U_background": 1.8366824861004716e-06,
+      "id": "2062",
+      "class": "Glioma"
+    },
+    {
+      "area": 1031.0,
+      "label": 1,
+      "dice": 0.8642509579658508,
+      "U_boundary": 0.0016516270115971565,
+      "U_interior": 0.0008660648600198328,
+      "U_background": 2.473626338483914e-11,
+      "id": "2063",
+      "class": "Glioma"
+    },
+    {
+      "area": 910.0,
+      "label": 1,
+      "dice": 0.7493062019348145,
+      "U_boundary": 0.0030778017826378345,
+      "U_interior": 2.582236902526347e-06,
+      "U_background": 3.441691296757199e-05,
+      "id": "2064",
+      "class": "Glioma"
+    },
+    {
+      "area": 564.0,
+      "label": 1,
+      "dice": 0.9482288956642151,
+      "U_boundary": 0.0010909349657595158,
+      "U_interior": 0.0,
+      "U_background": 4.073011372618396e-11,
+      "id": "2589",
+      "class": "Glioma"
+    },
+    {
+      "area": 827.0,
+      "label": 1,
+      "dice": 0.8665297627449036,
+      "U_boundary": 0.0012633416336029768,
+      "U_interior": 3.094985004281625e-05,
+      "U_background": 1.2759990113131447e-11,
+      "id": "2590",
+      "class": "Glioma"
+    },
+    {
+      "area": 920.0,
+      "label": 1,
+      "dice": 0.8509045243263245,
+      "U_boundary": 0.0011077533708885312,
+      "U_interior": 0.00038406855310313404,
+      "U_background": 3.2684299711149833e-11,
+      "id": "2591",
+      "class": "Glioma"
+    },
+    {
+      "area": 1073.0,
+      "label": 1,
+      "dice": 0.7343387603759766,
+      "U_boundary": 0.0008777895127423108,
+      "U_interior": 0.00040200556395575404,
+      "U_background": 2.083726420576415e-11,
+      "id": "2592",
+      "class": "Glioma"
+    },
+    {
+      "area": 959.0,
+      "label": 1,
+      "dice": 0.8692774176597595,
+      "U_boundary": 0.001735143130645156,
+      "U_interior": 0.0005004180711694062,
+      "U_background": 1.4838867981592507e-11,
+      "id": "2593",
+      "class": "Glioma"
+    },
+    {
+      "area": 752.0,
+      "label": 1,
+      "dice": 0.839924693107605,
+      "U_boundary": 0.0016522618243470788,
+      "U_interior": 0.00023720323224551976,
+      "U_background": 2.1949774691165658e-06,
+      "id": "2594",
+      "class": "Glioma"
+    },
+    {
+      "area": 200.0,
+      "label": 1,
+      "dice": 0.7797271013259888,
+      "U_boundary": 0.0015660565113648772,
+      "U_interior": 0.0,
+      "U_background": 2.0145113008296356e-11,
+      "id": "2975",
+      "class": "Glioma"
+    },
+    {
+      "area": 310.0,
+      "label": 1,
+      "dice": 0.6805707812309265,
+      "U_boundary": 0.001972493249922991,
+      "U_interior": 0.0,
+      "U_background": 1.0091642252518795e-05,
+      "id": "2976",
+      "class": "Glioma"
+    },
+    {
+      "area": 463.0,
+      "label": 1,
+      "dice": 0.7268446087837219,
+      "U_boundary": 0.00016534971655346453,
+      "U_interior": 0.0,
+      "U_background": 1.3139628208591603e-05,
+      "id": "2977",
+      "class": "Glioma"
+    },
+    {
+      "area": 692.0,
+      "label": 1,
+      "dice": 0.949999988079071,
+      "U_boundary": 0.0023165426682680845,
+      "U_interior": 1.037008342165802e-16,
+      "U_background": 5.215917628365041e-11,
+      "id": "2978",
+      "class": "Glioma"
+    },
+    {
+      "area": 804.0,
+      "label": 1,
+      "dice": 0.529144823551178,
+      "U_boundary": 0.0030642161145806313,
+      "U_interior": 7.75163440380755e-12,
+      "U_background": 7.071727304719388e-05,
+      "id": "2979",
+      "class": "Glioma"
+    },
+    {
+      "area": 788.0,
+      "label": 1,
+      "dice": 0.9219380617141724,
+      "U_boundary": 0.001966923475265503,
+      "U_interior": 5.07530561466201e-17,
+      "U_background": 2.0439028941554582e-11,
+      "id": "2980",
+      "class": "Glioma"
+    },
+    {
+      "area": 616.0,
+      "label": 1,
+      "dice": 0.906994640827179,
+      "U_boundary": 0.002959389006718993,
+      "U_interior": 0.0,
+      "U_background": 1.3669755993817034e-08,
+      "id": "2981",
+      "class": "Glioma"
+    },
+    {
+      "area": 296.0,
+      "label": 1,
+      "dice": 0.8143053650856018,
+      "U_boundary": 0.0016798096476122737,
+      "U_interior": 0.0,
+      "U_background": 7.39601802024481e-08,
+      "id": "2982",
+      "class": "Glioma"
+    },
+    {
+      "area": 631.0,
+      "label": 2,
+      "dice": 0.8438751101493835,
+      "U_boundary": 0.0018392005003988743,
+      "U_interior": 0.0004850363766308874,
+      "U_background": 3.362809683493673e-11,
+      "id": "1304",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 637.0,
+      "label": 2,
+      "dice": 0.8764204382896423,
+      "U_boundary": 0.0017035047058016062,
+      "U_interior": 0.0,
+      "U_background": 3.3435278510296484e-06,
+      "id": "1305",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 405.0,
+      "label": 2,
+      "dice": 0.8842874765396118,
+      "U_boundary": 0.0020972108468413353,
+      "U_interior": 0.0,
+      "U_background": 4.530635241972725e-11,
+      "id": "1306",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 358.0,
+      "label": 2,
+      "dice": 0.9100671410560608,
+      "U_boundary": 0.0014632638776674867,
+      "U_interior": 0.0,
+      "U_background": 2.696849514538524e-11,
+      "id": "1307",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 423.0,
+      "label": 2,
+      "dice": 0.9042423963546753,
+      "U_boundary": 0.000916315708309412,
+      "U_interior": 0.0,
+      "U_background": 7.245989225301841e-11,
+      "id": "1308",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 310.0,
+      "label": 2,
+      "dice": 0.8666666746139526,
+      "U_boundary": 0.0010681801941245794,
+      "U_interior": 0.0,
+      "U_background": 3.6346696485889396e-11,
+      "id": "1309",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 511.0,
+      "label": 2,
+      "dice": 0.8857432007789612,
+      "U_boundary": 0.0016509051201865077,
+      "U_interior": 2.5999192985182162e-06,
+      "U_background": 1.977124367003036e-11,
+      "id": "1493",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 596.0,
+      "label": 2,
+      "dice": 0.8694383502006531,
+      "U_boundary": 0.0014661973109468818,
+      "U_interior": 0.0,
+      "U_background": 5.3223708107452694e-08,
+      "id": "1494",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 845.0,
+      "label": 2,
+      "dice": 0.9088757634162903,
+      "U_boundary": 0.001025148667395115,
+      "U_interior": 4.284790702513419e-05,
+      "U_background": 6.031062455003067e-11,
+      "id": "1495",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 874.0,
+      "label": 2,
+      "dice": 0.9261971712112427,
+      "U_boundary": 0.0013767819618806243,
+      "U_interior": 2.302684875145927e-17,
+      "U_background": 4.691212349139384e-11,
+      "id": "1496",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 832.0,
+      "label": 2,
+      "dice": 0.5512605309486389,
+      "U_boundary": 0.0018716300837695599,
+      "U_interior": 0.004525969736278057,
+      "U_background": 2.6904058841870082e-11,
+      "id": "1497",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 260.0,
+      "label": 2,
+      "dice": 0.8860759735107422,
+      "U_boundary": 0.002060163300484419,
+      "U_interior": 0.0,
+      "U_background": 3.225266234641033e-11,
+      "id": "1677",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 498.0,
+      "label": 2,
+      "dice": 0.916824221611023,
+      "U_boundary": 0.0015334596391767263,
+      "U_interior": 0.0,
+      "U_background": 4.390023067291082e-11,
+      "id": "1678",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 607.0,
+      "label": 2,
+      "dice": 0.9411764740943909,
+      "U_boundary": 0.0007957291672937572,
+      "U_interior": 0.0,
+      "U_background": 1.9431345421594415e-11,
+      "id": "1679",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 754.0,
+      "label": 2,
+      "dice": 0.9596354365348816,
+      "U_boundary": 0.0014321495546028018,
+      "U_interior": 0.0,
+      "U_background": 6.215468417725134e-11,
+      "id": "1680",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 762.0,
+      "label": 2,
+      "dice": 0.9451103806495667,
+      "U_boundary": 0.0016871094703674316,
+      "U_interior": 0.0,
+      "U_background": 1.0191365112932615e-10,
+      "id": "1681",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 433.0,
+      "label": 2,
+      "dice": 0.8947368264198303,
+      "U_boundary": 0.0018903347663581371,
+      "U_interior": 2.63524120060199e-13,
+      "U_background": 1.1112216008468678e-10,
+      "id": "1682",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 328.0,
+      "label": 2,
+      "dice": 0.8592814207077026,
+      "U_boundary": 0.0013511122670024633,
+      "U_interior": 0.0,
+      "U_background": 1.7202277796668497e-11,
+      "id": "1683",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 109.0,
+      "label": 2,
+      "dice": 0.7194719314575195,
+      "U_boundary": 0.0050705354660749435,
+      "U_interior": 0.0,
+      "U_background": 5.615509793277518e-11,
+      "id": "1348",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 159.0,
+      "label": 2,
+      "dice": 0.905063271522522,
+      "U_boundary": 0.000984378159046173,
+      "U_interior": 0.0,
+      "U_background": 7.44973735478105e-11,
+      "id": "1349",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 128.0,
+      "label": 2,
+      "dice": 0.8532423377037048,
+      "U_boundary": 0.0018350868485867977,
+      "U_interior": 0.0,
+      "U_background": 1.1953758816130033e-10,
+      "id": "1350",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 104.0,
+      "label": 2,
+      "dice": 0.8030887842178345,
+      "U_boundary": 0.0008702679770067334,
+      "U_interior": 0.0,
+      "U_background": 2.8351648806435037e-10,
+      "id": "1351",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 285.0,
+      "label": 2,
+      "dice": 0.8823529481887817,
+      "U_boundary": 0.001683234702795744,
+      "U_interior": 4.440892164675075e-17,
+      "U_background": 1.236981784363822e-11,
+      "id": "1533",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 317.0,
+      "label": 2,
+      "dice": 0.8781163692474365,
+      "U_boundary": 0.0007609865861013532,
+      "U_interior": 0.0,
+      "U_background": 7.645711321002668e-12,
+      "id": "1534",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 401.0,
+      "label": 2,
+      "dice": 0.9181084036827087,
+      "U_boundary": 0.0010583711555227637,
+      "U_interior": 0.0,
+      "U_background": 2.6872013295098363e-11,
+      "id": "1535",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 330.0,
+      "label": 2,
+      "dice": 0.8805369138717651,
+      "U_boundary": 0.0012150555849075317,
+      "U_interior": 0.0,
+      "U_background": 1.8249587604990403e-11,
+      "id": "1536",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 301.0,
+      "label": 2,
+      "dice": 0.8797468543052673,
+      "U_boundary": 0.002051979536190629,
+      "U_interior": 0.0,
+      "U_background": 2.879981496339834e-11,
+      "id": "1537",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 120.0,
+      "label": 2,
+      "dice": 0.6557376980781555,
+      "U_boundary": 0.00205422006547451,
+      "U_interior": 0.0,
+      "U_background": 8.143737431964837e-06,
+      "id": "1721",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 264.0,
+      "label": 2,
+      "dice": 0.9381818175315857,
+      "U_boundary": 0.0011208398500457406,
+      "U_interior": 0.0,
+      "U_background": 1.1023151141875687e-11,
+      "id": "1722",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 250.0,
+      "label": 2,
+      "dice": 0.8707964420318604,
+      "U_boundary": 0.0016523470403626561,
+      "U_interior": 0.0,
+      "U_background": 3.9057267836595244e-11,
+      "id": "1723",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 259.0,
+      "label": 2,
+      "dice": 0.9148514866828918,
+      "U_boundary": 0.002811239566653967,
+      "U_interior": 0.0,
+      "U_background": 1.5762280369813197e-10,
+      "id": "1724",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 789.0,
+      "label": 2,
+      "dice": 0.11969417333602905,
+      "U_boundary": 0.001682243775576353,
+      "U_interior": 0.004298060666769743,
+      "U_background": 0.00022875599097460508,
+      "id": "1352",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1122.0,
+      "label": 2,
+      "dice": 0.5251815319061279,
+      "U_boundary": 0.0012015266111120582,
+      "U_interior": 1.408166440305383e-15,
+      "U_background": 0.00016295225941576064,
+      "id": "1353",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1275.0,
+      "label": 2,
+      "dice": 0.9357116222381592,
+      "U_boundary": 0.002076398115605116,
+      "U_interior": 0.0,
+      "U_background": 1.25786769888947e-10,
+      "id": "1354",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1333.0,
+      "label": 2,
+      "dice": 0.912923276424408,
+      "U_boundary": 0.0008786238031461835,
+      "U_interior": 1.711169342598237e-17,
+      "U_background": 3.5220996323914733e-06,
+      "id": "1355",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1466.0,
+      "label": 2,
+      "dice": 0.9288676381111145,
+      "U_boundary": 0.0006782744894735515,
+      "U_interior": 0.0,
+      "U_background": 5.69048419496454e-10,
+      "id": "1356",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1655.0,
+      "label": 2,
+      "dice": 0.9522707462310791,
+      "U_boundary": 0.001514308387413621,
+      "U_interior": 0.0,
+      "U_background": 1.49101689328468e-10,
+      "id": "1357",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1458.0,
+      "label": 2,
+      "dice": 0.9530782103538513,
+      "U_boundary": 0.0006344927824102342,
+      "U_interior": 0.0,
+      "U_background": 9.906350045829626e-11,
+      "id": "1358",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 958.0,
+      "label": 2,
+      "dice": 0.9303015470504761,
+      "U_boundary": 0.0007532029994763434,
+      "U_interior": 0.0,
+      "U_background": 2.2560971046914347e-06,
+      "id": "1359",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1919.0,
+      "label": 2,
+      "dice": 0.9206260442733765,
+      "U_boundary": 0.002260551555082202,
+      "U_interior": 0.0002008799638133496,
+      "U_background": 5.137397798837817e-11,
+      "id": "1538",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2562.0,
+      "label": 2,
+      "dice": 0.9640730023384094,
+      "U_boundary": 0.000824171002022922,
+      "U_interior": 1.1039051752781762e-14,
+      "U_background": 1.3699000267486383e-10,
+      "id": "1539",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2874.0,
+      "label": 2,
+      "dice": 0.971409022808075,
+      "U_boundary": 0.0008664551423862576,
+      "U_interior": 1.5903770974242943e-15,
+      "U_background": 1.938866012185514e-10,
+      "id": "1540",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2801.0,
+      "label": 2,
+      "dice": 0.9477965831756592,
+      "U_boundary": 0.0009514964767731726,
+      "U_interior": 3.4259533300564814e-19,
+      "U_background": 7.404137818411982e-07,
+      "id": "1541",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2580.0,
+      "label": 2,
+      "dice": 0.9593709111213684,
+      "U_boundary": 0.0007859037723392248,
+      "U_interior": 2.9845090091219515e-17,
+      "U_background": 6.661097131654969e-07,
+      "id": "1542",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1431.0,
+      "label": 2,
+      "dice": 0.9551523327827454,
+      "U_boundary": 0.001146399532444775,
+      "U_interior": 0.0,
+      "U_background": 1.5037476819301787e-10,
+      "id": "1543",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 736.0,
+      "label": 2,
+      "dice": 0.9124423861503601,
+      "U_boundary": 0.0010492049623280764,
+      "U_interior": 6.078155340150104e-12,
+      "U_background": 1.9324484720750768e-11,
+      "id": "1544",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 843.0,
+      "label": 2,
+      "dice": 0.8958083987236023,
+      "U_boundary": 0.003314714413136244,
+      "U_interior": 0.0005087582976557314,
+      "U_background": 1.3141353283341317e-10,
+      "id": "1725",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1973.0,
+      "label": 2,
+      "dice": 0.9408369660377502,
+      "U_boundary": 0.0013351672096177936,
+      "U_interior": 1.202256610238761e-13,
+      "U_background": 1.3146698165655835e-06,
+      "id": "1726",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2627.0,
+      "label": 2,
+      "dice": 0.9611267447471619,
+      "U_boundary": 0.001876013120636344,
+      "U_interior": 3.5370298356873775e-10,
+      "U_background": 3.0544367035645337e-10,
+      "id": "1727",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2881.0,
+      "label": 2,
+      "dice": 0.9214159250259399,
+      "U_boundary": 0.001165109919384122,
+      "U_interior": 0.00017439162184018642,
+      "U_background": 6.166502031224042e-11,
+      "id": "1728",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2922.0,
+      "label": 2,
+      "dice": 0.8953551650047302,
+      "U_boundary": 0.0015099416486918926,
+      "U_interior": 0.000395662005757913,
+      "U_background": 1.1800459220889792e-10,
+      "id": "1729",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2726.0,
+      "label": 2,
+      "dice": 0.9612879753112793,
+      "U_boundary": 0.0013246784219518304,
+      "U_interior": 2.8018715819699835e-12,
+      "U_background": 2.2940227495382715e-10,
+      "id": "1730",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 2402.0,
+      "label": 2,
+      "dice": 0.9399636387825012,
+      "U_boundary": 0.0008094030199572444,
+      "U_interior": 1.4914024859535857e-07,
+      "U_background": 1.2463709708754322e-06,
+      "id": "1731",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 1046.0,
+      "label": 2,
+      "dice": 0.8999999761581421,
+      "U_boundary": 0.0015269663417711854,
+      "U_interior": 0.0,
+      "U_background": 1.1444893643908216e-10,
+      "id": "1732",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 676.0,
+      "label": 2,
+      "dice": 0.9010840058326721,
+      "U_boundary": 0.0008523070137016475,
+      "U_interior": 0.0,
+      "U_background": 2.326586479028947e-09,
+      "id": "1733",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 253.0,
+      "label": 2,
+      "dice": 0.8456140160560608,
+      "U_boundary": 0.0014534101355820894,
+      "U_interior": 0.0,
+      "U_background": 2.1916241391140012e-11,
+      "id": "1374",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 296.0,
+      "label": 2,
+      "dice": 0.7600519061088562,
+      "U_boundary": 0.0007299287244677544,
+      "U_interior": 0.0,
+      "U_background": 4.553072358248755e-06,
+      "id": "1375",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 199.0,
+      "label": 2,
+      "dice": 0.7419962286949158,
+      "U_boundary": 0.0008331433637067676,
+      "U_interior": 0.0,
+      "U_background": 4.495274424698437e-06,
+      "id": "1376",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 132.0,
+      "label": 2,
+      "dice": 0.7610062956809998,
+      "U_boundary": 0.0011789764976128936,
+      "U_interior": 0.0,
+      "U_background": 1.2140178619335362e-11,
+      "id": "1377",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 76.0,
+      "label": 2,
+      "dice": 0.7400000095367432,
+      "U_boundary": 0.0030160099267959595,
+      "U_interior": NaN,
+      "U_background": 5.201550266065169e-07,
+      "id": "1557",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 134.0,
+      "label": 2,
+      "dice": 0.7514124512672424,
+      "U_boundary": 0.0028037589509040117,
+      "U_interior": 0.0,
+      "U_background": 2.762682270451844e-11,
+      "id": "1558",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 330.0,
+      "label": 2,
+      "dice": 0.908839762210846,
+      "U_boundary": 0.0012595196021720767,
+      "U_interior": 0.0,
+      "U_background": 4.730289424048628e-11,
+      "id": "1559",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 436.0,
+      "label": 2,
+      "dice": 0.9208791255950928,
+      "U_boundary": 0.0010027848184108734,
+      "U_interior": 0.0,
+      "U_background": 3.814645127553362e-11,
+      "id": "1560",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 392.0,
+      "label": 2,
+      "dice": 0.9090909361839294,
+      "U_boundary": 0.0010627963347360492,
+      "U_interior": 0.0,
+      "U_background": 2.1000338620846826e-11,
+      "id": "1561",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 290.0,
+      "label": 2,
+      "dice": 0.8100558519363403,
+      "U_boundary": 0.0016287538455799222,
+      "U_interior": 0.0,
+      "U_background": 3.014508138221572e-06,
+      "id": "1562",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 145.0,
+      "label": 2,
+      "dice": 0.8971962332725525,
+      "U_boundary": 0.002464122138917446,
+      "U_interior": 0.0,
+      "U_background": 1.118477359340897e-11,
+      "id": "1748",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 191.0,
+      "label": 2,
+      "dice": 0.8033826351165771,
+      "U_boundary": 0.001153564895503223,
+      "U_interior": 0.0,
+      "U_background": 5.863930868654776e-11,
+      "id": "1749",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 243.0,
+      "label": 2,
+      "dice": 0.881602942943573,
+      "U_boundary": 0.0016525989631190896,
+      "U_interior": 0.0,
+      "U_background": 4.15088415028908e-11,
+      "id": "1750",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 252.0,
+      "label": 2,
+      "dice": 0.9615384340286255,
+      "U_boundary": 0.0010200990363955498,
+      "U_interior": 0.0,
+      "U_background": 2.8692642012329017e-11,
+      "id": "1751",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 264.0,
+      "label": 2,
+      "dice": 0.8986083269119263,
+      "U_boundary": 0.0022458573803305626,
+      "U_interior": 0.0,
+      "U_background": 6.390000334421941e-11,
+      "id": "1752",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 163.0,
+      "label": 2,
+      "dice": 0.9166666865348816,
+      "U_boundary": 0.003297044662758708,
+      "U_interior": 0.0,
+      "U_background": 5.418624229869273e-11,
+      "id": "1753",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 453.0,
+      "label": 2,
+      "dice": 0.9373007416725159,
+      "U_boundary": 0.0023581604473292828,
+      "U_interior": 0.0,
+      "U_background": 5.029607980100437e-11,
+      "id": "1118",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 593.0,
+      "label": 2,
+      "dice": 0.9473684430122375,
+      "U_boundary": 0.002115454990416765,
+      "U_interior": 0.0,
+      "U_background": 6.448042100259954e-11,
+      "id": "1119",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 587.0,
+      "label": 2,
+      "dice": 0.9333333373069763,
+      "U_boundary": 0.0021424689330160618,
+      "U_interior": 0.0,
+      "U_background": 7.208298541394598e-11,
+      "id": "1120",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 186.0,
+      "label": 2,
+      "dice": 0.40220993757247925,
+      "U_boundary": 0.0027658885810524225,
+      "U_interior": 5.511031084606821e-13,
+      "U_background": 1.5859217455727048e-05,
+      "id": "1121",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 648.0,
+      "label": 2,
+      "dice": 0.9295774698257446,
+      "U_boundary": 0.0013167315628379583,
+      "U_interior": 0.0,
+      "U_background": 1.754688928878867e-11,
+      "id": "1122",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 531.0,
+      "label": 2,
+      "dice": 0.8657921552658081,
+      "U_boundary": 0.0015684794634580612,
+      "U_interior": 0.0010759284486994147,
+      "U_background": 9.70253460907955e-11,
+      "id": "1123",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 412.0,
+      "label": 2,
+      "dice": 0.916201114654541,
+      "U_boundary": 0.0035030811559408903,
+      "U_interior": 0.0,
+      "U_background": 1.4868774087517522e-05,
+      "id": "1238",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 375.0,
+      "label": 2,
+      "dice": 0.7676560878753662,
+      "U_boundary": 0.001025425037369132,
+      "U_interior": 0.0,
+      "U_background": 7.462517714884598e-06,
+      "id": "1239",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 385.0,
+      "label": 2,
+      "dice": 0.8755760192871094,
+      "U_boundary": 0.0019461882766336203,
+      "U_interior": 0.0,
+      "U_background": 2.9713808089582017e-06,
+      "id": "1240",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 368.0,
+      "label": 2,
+      "dice": 0.8489042520523071,
+      "U_boundary": 0.0011502858251333237,
+      "U_interior": 0.0,
+      "U_background": 1.2980383261307349e-11,
+      "id": "1241",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 271.0,
+      "label": 2,
+      "dice": 0.9011857509613037,
+      "U_boundary": 0.0017818465130403638,
+      "U_interior": 0.0,
+      "U_background": 2.3094188020267303e-11,
+      "id": "986",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 346.0,
+      "label": 2,
+      "dice": 0.9248226881027222,
+      "U_boundary": 0.0010074119782075286,
+      "U_interior": 0.0,
+      "U_background": 1.8366155818405616e-11,
+      "id": "987",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 402.0,
+      "label": 2,
+      "dice": 0.9020978808403015,
+      "U_boundary": 0.002795771462842822,
+      "U_interior": 0.0,
+      "U_background": 6.98911900576249e-11,
+      "id": "988",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 371.0,
+      "label": 2,
+      "dice": 0.9002432823181152,
+      "U_boundary": 0.0008022433030419052,
+      "U_interior": 0.0,
+      "U_background": 2.087102192460666e-11,
+      "id": "989",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 303.0,
+      "label": 2,
+      "dice": 0.8622950911521912,
+      "U_boundary": 0.0018847902538254857,
+      "U_interior": 0.0,
+      "U_background": 6.0835281256999e-11,
+      "id": "1010",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 336.0,
+      "label": 2,
+      "dice": 0.8717201352119446,
+      "U_boundary": 0.002093132119625807,
+      "U_interior": 0.0,
+      "U_background": 3.566013803690815e-11,
+      "id": "1011",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 351.0,
+      "label": 2,
+      "dice": 0.8567293882369995,
+      "U_boundary": 0.0016097519546747208,
+      "U_interior": 1.0012101553640712e-13,
+      "U_background": 3.9499202519888144e-11,
+      "id": "1012",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 387.0,
+      "label": 2,
+      "dice": 0.9042145609855652,
+      "U_boundary": 0.0011591400252655149,
+      "U_interior": 0.0,
+      "U_background": 1.9594964539848547e-11,
+      "id": "1148",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 378.0,
+      "label": 2,
+      "dice": 0.9083871245384216,
+      "U_boundary": 0.0016330975340679288,
+      "U_interior": 0.0,
+      "U_background": 3.045918031685524e-11,
+      "id": "1149",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 265.0,
+      "label": 2,
+      "dice": 0.7492537498474121,
+      "U_boundary": 0.001047789235599339,
+      "U_interior": 0.0,
+      "U_background": 9.395381312060636e-06,
+      "id": "1150",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 81.0,
+      "label": 2,
+      "dice": 0.15189872682094574,
+      "U_boundary": 0.0025168554857373238,
+      "U_interior": 0.0,
+      "U_background": 7.918432675069198e-05,
+      "id": "1266",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 128.0,
+      "label": 2,
+      "dice": 0.46468400955200195,
+      "U_boundary": 0.0006221533985808492,
+      "U_interior": 0.0,
+      "U_background": 2.424180638627149e-05,
+      "id": "1267",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 151.0,
+      "label": 2,
+      "dice": 0.9324758648872375,
+      "U_boundary": 0.0018206668319180608,
+      "U_interior": 0.0,
+      "U_background": 1.531010908328856e-11,
+      "id": "1268",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 179.0,
+      "label": 2,
+      "dice": 0.8564231991767883,
+      "U_boundary": 0.002280023181810975,
+      "U_interior": 0.0,
+      "U_background": 2.0451595278414558e-11,
+      "id": "1269",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 286.0,
+      "label": 2,
+      "dice": 0.8764415383338928,
+      "U_boundary": 0.0030730876605957747,
+      "U_interior": 0.0,
+      "U_background": 3.971434986427269e-11,
+      "id": "1013",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 325.0,
+      "label": 2,
+      "dice": 0.9069069027900696,
+      "U_boundary": 0.0019836747087538242,
+      "U_interior": 0.0,
+      "U_background": 6.410324354666486e-11,
+      "id": "1014",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 268.0,
+      "label": 2,
+      "dice": 0.4100080728530884,
+      "U_boundary": 0.001000742195174098,
+      "U_interior": 1.915927752075262e-15,
+      "U_background": 1.9921677449019626e-05,
+      "id": "1151",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 269.0,
+      "label": 2,
+      "dice": 0.4177339971065521,
+      "U_boundary": 0.002207772107794881,
+      "U_interior": 1.8037754991907795e-13,
+      "U_background": 9.078291441255715e-06,
+      "id": "1152",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 489.0,
+      "label": 2,
+      "dice": 0.06055045872926712,
+      "U_boundary": 0.0003578933246899396,
+      "U_interior": 7.675724639222281e-11,
+      "U_background": 7.532406925747637e-06,
+      "id": "1153",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 103.0,
+      "label": 2,
+      "dice": 0.4368421137332916,
+      "U_boundary": 0.0011759912595152855,
+      "U_interior": NaN,
+      "U_background": 1.813252310967073e-05,
+      "id": "1270",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 81.0,
+      "label": 2,
+      "dice": 0.2850779592990875,
+      "U_boundary": 0.0015728059224784374,
+      "U_interior": NaN,
+      "U_background": 2.029988718277309e-05,
+      "id": "1271",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 86.0,
+      "label": 2,
+      "dice": 0.5639344453811646,
+      "U_boundary": 0.003317971481010318,
+      "U_interior": NaN,
+      "U_background": 1.8328710211790167e-05,
+      "id": "1272",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 305.0,
+      "label": 2,
+      "dice": 0.8648648858070374,
+      "U_boundary": 0.0010515943868085742,
+      "U_interior": 0.0010680878767743707,
+      "U_background": 6.475212727119484e-12,
+      "id": "1410",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 281.0,
+      "label": 2,
+      "dice": 0.8801261782646179,
+      "U_boundary": 0.002088789362460375,
+      "U_interior": 0.0,
+      "U_background": 2.0195362743224976e-11,
+      "id": "1411",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 205.0,
+      "label": 2,
+      "dice": 0.9209932088851929,
+      "U_boundary": 0.0011433683102950454,
+      "U_interior": 0.0,
+      "U_background": 4.664565955714295e-11,
+      "id": "1412",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 93.0,
+      "label": 2,
+      "dice": 0.7591836452484131,
+      "U_boundary": 0.002919439459219575,
+      "U_interior": 0.0,
+      "U_background": 5.950003924226621e-06,
+      "id": "1413",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 251.0,
+      "label": 2,
+      "dice": 0.903954803943634,
+      "U_boundary": 0.0022070682607591152,
+      "U_interior": 0.0,
+      "U_background": 9.841388988462985e-12,
+      "id": "1596",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 349.0,
+      "label": 2,
+      "dice": 0.946354866027832,
+      "U_boundary": 0.0016994168981909752,
+      "U_interior": 0.0,
+      "U_background": 2.736380566581431e-11,
+      "id": "1597",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 263.0,
+      "label": 2,
+      "dice": 0.8341385126113892,
+      "U_boundary": 0.0011102099670097232,
+      "U_interior": 0.0,
+      "U_background": 2.3160890094686692e-08,
+      "id": "1598",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 281.0,
+      "label": 2,
+      "dice": 0.008608322590589523,
+      "U_boundary": 0.00014158622070681304,
+      "U_interior": 1.8920008788836373e-12,
+      "U_background": 6.5320573412464e-06,
+      "id": "1599",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 118.0,
+      "label": 2,
+      "dice": 0.5488371849060059,
+      "U_boundary": 0.0010219812393188477,
+      "U_interior": 0.0,
+      "U_background": 2.24227987928316e-05,
+      "id": "1789",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 148.0,
+      "label": 2,
+      "dice": 0.875,
+      "U_boundary": 0.0013534865574911237,
+      "U_interior": 0.0,
+      "U_background": 2.1021235099838442e-11,
+      "id": "1790",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 167.0,
+      "label": 2,
+      "dice": 0.9618768095970154,
+      "U_boundary": 0.0014475143980234861,
+      "U_interior": 0.0,
+      "U_background": 5.5044597352393865e-11,
+      "id": "1791",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 84.0,
+      "label": 2,
+      "dice": 0.6693548560142517,
+      "U_boundary": 0.0006521675968542695,
+      "U_interior": 0.0,
+      "U_background": 5.728921678382903e-06,
+      "id": "1792",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 173.0,
+      "label": 2,
+      "dice": 0.802955687046051,
+      "U_boundary": 0.005313873291015625,
+      "U_interior": 0.0,
+      "U_background": 1.259172222489724e-05,
+      "id": "1793",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 172.0,
+      "label": 2,
+      "dice": 0.8105515837669373,
+      "U_boundary": 0.0020644315518438816,
+      "U_interior": 0.0,
+      "U_background": 4.176442872094732e-11,
+      "id": "1794",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 322.0,
+      "label": 2,
+      "dice": 0.8418230414390564,
+      "U_boundary": 0.0017892317846417427,
+      "U_interior": 0.0,
+      "U_background": 2.552281129497569e-11,
+      "id": "1414",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 448.0,
+      "label": 2,
+      "dice": 0.9334889054298401,
+      "U_boundary": 0.001917678164318204,
+      "U_interior": 0.0,
+      "U_background": 1.6745070607893098e-11,
+      "id": "1415",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 281.0,
+      "label": 2,
+      "dice": 0.8613376617431641,
+      "U_boundary": 0.0009221445070579648,
+      "U_interior": 0.0,
+      "U_background": 4.937467679155816e-07,
+      "id": "1416",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 282.0,
+      "label": 2,
+      "dice": 0.895575225353241,
+      "U_boundary": 0.0015429053455591202,
+      "U_interior": 0.0,
+      "U_background": 2.3822470038292742e-11,
+      "id": "1417",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 336.0,
+      "label": 2,
+      "dice": 0.9413489699363708,
+      "U_boundary": 0.00059436762239784,
+      "U_interior": 0.0,
+      "U_background": 3.0869411193901186e-11,
+      "id": "1418",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 302.0,
+      "label": 2,
+      "dice": 0.9167974591255188,
+      "U_boundary": 0.0013978297356516123,
+      "U_interior": 0.0,
+      "U_background": 3.2496869778464443e-11,
+      "id": "1419",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 241.0,
+      "label": 2,
+      "dice": 0.8768267035484314,
+      "U_boundary": 0.0014056793879717588,
+      "U_interior": 0.0,
+      "U_background": 2.6893196003463515e-11,
+      "id": "1420",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 405.0,
+      "label": 2,
+      "dice": 0.9101517200469971,
+      "U_boundary": 0.0007723957533016801,
+      "U_interior": 0.0,
+      "U_background": 1.1935050170386319e-11,
+      "id": "1600",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 516.0,
+      "label": 2,
+      "dice": 0.9228007197380066,
+      "U_boundary": 0.0005622832686640322,
+      "U_interior": 0.0,
+      "U_background": 1.577084296489062e-11,
+      "id": "1601",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 618.0,
+      "label": 2,
+      "dice": 0.9456610083580017,
+      "U_boundary": 0.0006233020103536546,
+      "U_interior": 0.0,
+      "U_background": 1.1639265072582727e-11,
+      "id": "1602",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 527.0,
+      "label": 2,
+      "dice": 0.9071770310401917,
+      "U_boundary": 0.0013270179042592645,
+      "U_interior": 0.0,
+      "U_background": 1.1893416806962875e-11,
+      "id": "1603",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 154.0,
+      "label": 2,
+      "dice": 0.9156626462936401,
+      "U_boundary": 0.0017332839779555798,
+      "U_interior": 0.0,
+      "U_background": 3.1921531390421976e-11,
+      "id": "1604",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 455.0,
+      "label": 2,
+      "dice": 0.8793859481811523,
+      "U_boundary": 0.002007352886721492,
+      "U_interior": 0.0011298884637653828,
+      "U_background": 1.3099199804855743e-06,
+      "id": "1795",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 498.0,
+      "label": 2,
+      "dice": 0.9029918313026428,
+      "U_boundary": 0.001237676595337689,
+      "U_interior": 0.0,
+      "U_background": 2.223596654027382e-11,
+      "id": "1796",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 519.0,
+      "label": 2,
+      "dice": 0.9322344064712524,
+      "U_boundary": 0.0015770060708746314,
+      "U_interior": 0.0,
+      "U_background": 5.147916121162055e-11,
+      "id": "1797",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 444.0,
+      "label": 2,
+      "dice": 0.9043112397193909,
+      "U_boundary": 0.002024468732997775,
+      "U_interior": 0.0,
+      "U_background": 1.8861048833862526e-10,
+      "id": "1798",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 401.0,
+      "label": 2,
+      "dice": 0.6953937411308289,
+      "U_boundary": 0.0024931265506893396,
+      "U_interior": 0.0013100875075906515,
+      "U_background": 3.334311646230326e-11,
+      "id": "1799",
+      "class": "Pituitary tumor"
+    },
+    {
+      "area": 259.0,
+      "label": 2,
+      "dice": 0.8627451062202454,
+      "U_boundary": 0.0011737546883523464,
+      "U_interior": 0.0,
+      "U_background": 1.0063071036181537e-11,
+      "id": "1800",
+      "class": "Pituitary tumor"
+    }
+  ],
+  "size_stratified": {
+    "U_small": 0.0017494243692919207,
+    "U_large": 0.0013149910228036346,
+    "n_small": 8,
+    "n_large": 469
+  },
+  "mc_mean_dice": 0.77799457180718
+}

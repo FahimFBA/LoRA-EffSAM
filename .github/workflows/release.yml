@@ -1,0 +1,67 @@
+name: Release
+
+# Publishes a GitHub release whose notes are the matching section of CHANGELOG.md.
+#   1. add "## [X.Y.Z] - YYYY-MM-DD" to CHANGELOG.md and bump version in pyproject.toml
+#   2. git tag vX.Y.Z && git push origin vX.Y.Z
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing tag to (re)publish, e.g. v0.2.0'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.tag || github.ref }}
+
+      - name: Resolve version
+        id: ver
+        run: |
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Check tag matches pyproject.toml
+        run: |
+          PKG=$(sed -n 's/^version *= *"\(.*\)"/\1/p' pyproject.toml | head -n1)
+          if [ "$PKG" != "${{ steps.ver.outputs.version }}" ]; then
+            echo "::error::Tag ${{ steps.ver.outputs.tag }} does not match pyproject.toml version $PKG"
+            exit 1
+          fi
+
+      - name: Extract release notes from CHANGELOG.md
+        run: |
+          VERSION="${{ steps.ver.outputs.version }}"
+          awk -v v="$VERSION" '
+            /^## \[/ { if (found) exit; if (index($0, "[" v "]")) { found = 1; next } }
+            found { print }
+          ' CHANGELOG.md | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' > release_notes.md
+          if [ ! -s release_notes.md ]; then
+            echo "::error::No section for [$VERSION] (or it is empty) in CHANGELOG.md"
+            exit 1
+          fi
+          cat release_notes.md
+
+      - name: Create or update release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          PRE=""
+          case "$TAG" in *-*) PRE="--prerelease" ;; esac
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "$TAG" --notes-file release_notes.md $PRE
+          else
+            gh release create "$TAG" --title "$TAG" --notes-file release_notes.md --verify-tag $PRE
+          fi
