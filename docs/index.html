@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<a class="skip" href="#abstract">Skip to content</a>
+
 <header class="bar">
   <a class="bar-name" href="#top">LoRA-EffSAM</a>
   <nav aria-label="Sections">
@@ -27,7 +29,7 @@
   </nav>
 </header>
 
-<main id="top">
+<main id="top" tabindex="-1">
 
 <section class="hero">
   <h1>LoRA-EffSAM</h1>
@@ -89,7 +91,8 @@
   <div>
     <p class="lead">Each step of the recipe adds Dice. Compare the four configurations, with or without test-time augmentation.</p>
 
-    <div class="ladder" id="ladder" aria-live="polite">
+    <div class="ladder" id="ladder">
+      <p class="sr-only" id="ladder-status" role="status"></p>
       <div class="ladder-ctl" role="group" aria-label="Test-time augmentation">
         <button type="button" data-tta="0" aria-pressed="true">Single pass</button>
         <button type="button" data-tta="1" aria-pressed="false">With flip TTA</button>
@@ -153,7 +156,7 @@
   <div>
     <p class="lead">Linux or WSL2 with an NVIDIA GPU. Developed on an RTX 3060 12 GB with CUDA 12.6.</p>
     <div class="code">
-      <button type="button" class="copy" data-copy="install">Copy</button>
+      <button type="button" class="copy" data-copy="install" aria-label="Copy install commands">Copy</button>
 <pre id="install"><code>conda create -n lora-effsam python=3.12 &amp;&amp; conda activate lora-effsam
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 pip install -e ".[dev]"
@@ -163,7 +166,7 @@ bash scripts/setup_data.sh           # Figshare dataset, about 830 MB
 lora-effsam verify-env</code></pre>
     </div>
     <div class="code">
-      <button type="button" class="copy" data-copy="runit">Copy</button>
+      <button type="button" class="copy" data-copy="runit" aria-label="Copy run commands">Copy</button>
 <pre id="runit"><code>SMOKE=1 bash scripts/run_pipeline.sh   # 1-epoch check of the whole pipeline, about 5 min
 bash scripts/run_pipeline.sh           # final model, seeds 42/1/2, about 7 h on an RTX 3060
 bash scripts/reproduce_results.sh      # rebuild every table, statistic and figure</code></pre>
@@ -176,7 +179,7 @@ bash scripts/reproduce_results.sh      # rebuild every table, statistic and figu
   <h2>Cite</h2>
   <div>
     <div class="code">
-      <button type="button" class="copy" data-copy="bib">Copy</button>
+      <button type="button" class="copy" data-copy="bib" aria-label="Copy BibTeX citation">Copy</button>
 <pre id="bib"><code>@unpublished{amin2026loraeffsam,
   title  = {{LoRA-EffSAM}: Prompt-free brain tumor segmentation with a parameter-efficient {EfficientSAM}},
   author = {Amin, Md. Fahim Bin and Khan, Israt Jahan and Juoairia, Adiba and Alam, Touhid and

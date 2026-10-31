@@ -1,0 +1,38 @@
+name: Bug report
+description: Report something that is broken or behaves unexpectedly
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands, config and seed used.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / traceback
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: lora-effsam version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Python, PyTorch, CUDA, GPU.
+      placeholder: "Ubuntu 22.04 (WSL2), Python 3.12, torch 2.x, CUDA 12.6, RTX 3060 12 GB"
+    validations:
+      required: true

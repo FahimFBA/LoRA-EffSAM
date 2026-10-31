@@ -4,7 +4,7 @@
   --ink: #0f1a22;
   --slate: #566670;
   --line: #c9d3d8;
-  --pred: #c8501a;       /* prediction orange, darkened for text contrast */
+  --pred: #b3440f;       /* prediction orange, darkened for text contrast (4.5:1+) */
   --pred-fill: #e8672d;  /* same hue, for marks */
   --gt: #0e8a6a;         /* ground-truth green */
   --base: #6d7c86;
@@ -35,8 +35,11 @@ body {
   font: 400 1.0625rem/1.65 var(--body); font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
 }
-a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
+a { color: inherit; text-decoration-color: var(--slate); text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
 a:hover { text-decoration-color: var(--pred); }
+.skip { position: absolute; left: 16px; top: -64px; z-index: 20; padding: 10px 16px; background: var(--ink); color: var(--ground); font: 600 .95rem/1 var(--head); border-radius: 6px; }
+.skip:focus { top: 12px; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
 img { max-width: 100%; height: auto; display: block; }
 code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
