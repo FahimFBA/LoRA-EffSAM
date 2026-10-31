@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LoRA-EffSAM</title>
+<meta name="description" content="Prompt-free brain tumor MRI segmentation with a parameter-efficient LoRA-adapted EfficientSAM, a hybrid CNN-ViT decoder and MC-Dropout uncertainty.">
+<meta property="og:title" content="LoRA-EffSAM">
+<meta property="og:description" content="Prompt-free brain tumor segmentation with a parameter-efficient EfficientSAM. 0.823 Dice with only 5.5% of parameters trained.">
+<meta property="og:image" content="assets/hero.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="bar-name" href="#top">LoRA-EffSAM</a>
+  <nav aria-label="Sections">
+    <a href="#method">Method</a>
+    <a href="#results">Results</a>
+    <a href="#reliance">Interpretation</a>
+    <a href="#run">Run it</a>
+    <a href="#cite">Cite</a>
+    <a class="bar-code" href="https://github.com/FahimFBA/LoRA-EffSAM">Code on GitHub</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <h1>LoRA-EffSAM</h1>
+  <p class="sub">Prompt-free brain tumor segmentation with a parameter-efficient EfficientSAM</p>
+  <p class="authors">Md. Fahim Bin Amin, Israt Jahan Khan, Adiba Juoairia, Touhid Alam, Md Kishor Morol, Tze Hui Liew, Dip Nandi</p>
+  <div class="actions">
+    <a class="btn primary" href="https://github.com/FahimFBA/LoRA-EffSAM">Get the code</a>
+    <a class="btn" href="#cite">Cite</a>
+    <a class="btn" href="https://github.com/FahimFBA/LoRA-EffSAM/releases">Releases</a>
+  </div>
+
+  <figure class="hero-fig">
+    <img src="assets/hero.webp" width="1400" height="479" alt="A meningioma on a T1 contrast-enhanced MRI slice: the full slice with a box around the tumor, a zoomed crop with the ground-truth contour in green and the predicted contour in orange, and a thin ring of MC-Dropout uncertainty along the tumor boundary.">
+    <figcaption>
+      Meningioma, a median test case (Dice 0.944). Green: ground truth. Orange dashed: prediction.
+      Right: MC-Dropout uncertainty, which sits on the boundary. <a href="#gallery">More cases</a>
+    </figcaption>
+  </figure>
+
+  <dl class="facts">
+    <div><dt>Test Dice, 3 seeds</dt><dd>0.819 <span>± 0.003</span></dd></div>
+    <div><dt>With flip test-time augmentation</dt><dd>0.823 <span>± 0.003</span></dd></div>
+    <div><dt>Trainable parameters</dt><dd>1.31 M <span>of 23.7 M</span></dd></div>
+    <div><dt>Prompts needed at inference</dt><dd>none</dd></div>
+  </dl>
+</section>
+
+<section class="split" id="abstract">
+  <h2>Abstract</h2>
+  <div class="prose">
+    <p>Foundation segmentation models such as the Segment Anything family are pretrained on natural images and need adaptation before they work on MRI. We adapt the EfficientSAM image encoder to brain-tumor segmentation with low-rank adaptation (LoRA) of its attention layers, keep the encoder frozen otherwise, and add a hybrid CNN–ViT decoder with skip connections from both a light convolutional stem and intermediate transformer blocks.</p>
+    <p>Training uses a size-adaptive, boundary-aware loss, and Monte Carlo dropout gives pixel-wise uncertainty. On the public Figshare brain-tumor dataset (3,064 T1-weighted contrast-enhanced slices, 233 patients), evaluated on a strict patient-level split, the final model reaches 0.819 ± 0.003 Dice over three seeds, and 0.823 ± 0.003 with flip test-time augmentation, against 0.780 ± 0.006 for a LoRA baseline.</p>
+    <p>An explainability analysis shows that the model relies on the LoRA adapters and the transformer skip connections but hardly on its two attention modules, and that MC-Dropout uncertainty localises boundary ambiguity but does not flag missed tumors.</p>
+  </div>
+</section>
+
+<section class="split" id="method">
+  <h2>Method</h2>
+  <div>
+    <figure class="wide">
+      <img src="assets/architecture.webp" width="1600" height="722" loading="lazy" alt="Architecture diagram. An MRI slice feeds a frozen EfficientSAM ViT-S encoder with LoRA on Q, K and V, and a trainable CNN stem. Encoder features pass through CBAM attention into a hybrid U-Net decoder that also receives ViT skips from blocks 3, 6 and 9 and the CNN stem features. The decoder feeds an MC-Dropout head and a boundary-gated refine head that produce the mean prediction and the uncertainty map.">
+      <figcaption>Grey is frozen, amber is trained, blue is used for uncertainty at inference.</figcaption>
+    </figure>
+    <dl class="defs">
+      <dt>Encoder</dt>
+      <dd>EfficientSAM ViT-S, frozen, with LoRA (rank 4) on the query, key and value projections. That adds 74 K trainable parameters to 22.4 M frozen ones.</dd>
+      <dt>Decoder</dt>
+      <dd>A four-level U-Net that concatenates two kinds of skips at each level: features from a small CNN stem at 1/1 to 1/8 resolution, and features from transformer blocks 3, 6 and 9. Deep supervision at 1/8, 1/4 and 1/2.</dd>
+      <dt>Loss</dt>
+      <dd>Dice, plus a Tversky term whose weights adapt to lesion size, plus a size-weighted boundary term, so small tumors are not drowned out by large ones.</dd>
+      <dt>Uncertainty</dt>
+      <dd>Dropout stays on at test time. Twenty stochastic passes give a mean prediction and a per-pixel uncertainty map.</dd>
+    </dl>
+  </div>
+</section>
+
+<section class="split" id="results">
+  <h2>Results</h2>
+  <div>
+    <p class="lead">Each step of the recipe adds Dice. Compare the four configurations, with or without test-time augmentation.</p>
+
+    <div class="ladder" id="ladder" aria-live="polite">
+      <div class="ladder-ctl" role="group" aria-label="Test-time augmentation">
+        <button type="button" data-tta="0" aria-pressed="true">Single pass</button>
+        <button type="button" data-tta="1" aria-pressed="false">With flip TTA</button>
+      </div>
+      <div class="ladder-plot" id="ladder-plot"></div>
+      <p class="ladder-note">Mean test Dice with ± SD over 3 seeds, 477 test slices. The axis starts at 0.76 to make the steps legible.</p>
+    </div>
+
+    <p>The final configuration with TTA beats the baseline by 0.042 Dice (95% CI 0.032 to 0.053). Paired Wilcoxon test on 477 slices: p &lt; 0.0001, better on 343 images and worse on 134. A seed-level paired t-test gives p = 0.011.</p>
+
+    <table class="data">
+      <caption>Test Dice by subgroup, 3-seed mean</caption>
+      <thead><tr><th scope="col">Subgroup</th><th scope="col">Slices</th><th scope="col">Baseline</th><th scope="col">Final + TTA</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">All</th><td>477</td><td>0.780</td><td>0.823</td></tr>
+        <tr><th scope="row">Meningioma</th><td>120</td><td>0.887</td><td>0.908</td></tr>
+        <tr><th scope="row">Glioma</th><td>222</td><td>0.696</td><td>0.750</td></tr>
+        <tr><th scope="row">Pituitary</th><td>135</td><td>0.824</td><td>0.866</td></tr>
+        <tr><th scope="row">Smallest lesions (Q1)</th><td>119</td><td>0.678</td><td>0.774</td></tr>
+        <tr><th scope="row">Largest lesions (Q4)</th><td>120</td><td>0.839</td><td>0.868</td></tr>
+      </tbody>
+    </table>
+    <p class="fine">The split is by patient (165 train, 34 validation, 34 test patients), so no patient appears on both sides. Full tables, tests and caveats are in <a href="https://github.com/FahimFBA/LoRA-EffSAM/tree/main/results">results/</a>.</p>
+  </div>
+</section>
+
+<section class="split" id="reliance">
+  <h2>What the model relies on</h2>
+  <div>
+    <figure class="wide">
+      <img src="assets/knockout.webp" width="1400" height="604" loading="lazy" alt="Bar chart of the drop in test Dice when each component is disabled at test time: LoRA off costs 0.2815, ViT skips zeroed 0.0700, CNN skips zeroed 0.0256, refine head off 0.0006 and CBAM attention off 0.0001.">
+      <figcaption>Drop in test Dice when a component of the trained model is disabled at test time.</figcaption>
+    </figure>
+    <div class="prose">
+      <p>Switching LoRA off costs 0.28 Dice, and zeroing the transformer skips costs 0.07. The CBAM attention and the refine head cost almost nothing when removed, so most of the gain comes from the adapted encoder and the transformer skips.</p>
+      <p>MC-Dropout uncertainty concentrates on tumor boundaries. It tells you where an edge is ambiguous, but it does not flag a tumor the model missed entirely: the worst test case below has Dice 0.0 and little uncertainty on the true lesion.</p>
+    </div>
+  </div>
+</section>
+
+<section class="split" id="gallery">
+  <h2>Cases and diagnostics</h2>
+  <div>
+    <figure class="narrow">
+      <img src="assets/qualitative.webp" width="1400" height="2459" loading="lazy" alt="Five test cases, each with the full slice, a zoomed crop with ground-truth and predicted contours, and the uncertainty map: median meningioma, median glioma, median pituitary tumor, a small-lesion case, and the worst test case with Dice 0.">
+      <figcaption>Cases chosen by rule, not by eye: the median-Dice case of each tumor class, the median case of the smallest-size quartile, and the worst test case. The last row is a failure.</figcaption>
+    </figure>
+    <figure class="wide">
+      <img src="assets/explainability_maps.webp" width="1800" height="1172" loading="lazy" alt="Internal maps of the model for example slices: attention, coarse-to-fine decoder outputs, the refine gate and uncertainty.">
+      <figcaption>Internal maps: attention, coarse-to-fine decoder predictions, refine gate and uncertainty.</figcaption>
+    </figure>
+    <figure class="wide">
+      <img src="assets/learning_curves.webp" width="1400" height="821" loading="lazy" alt="Validation Dice per epoch for the four configurations, mean and standard deviation band over three seeds.">
+      <figcaption>Validation Dice per epoch, mean ± SD over 3 seeds.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="split" id="run">
+  <h2>Run it</h2>
+  <div>
+    <p class="lead">Linux or WSL2 with an NVIDIA GPU. Developed on an RTX 3060 12 GB with CUDA 12.6.</p>
+    <div class="code">
+      <button type="button" class="copy" data-copy="install">Copy</button>
+<pre id="install"><code>conda create -n lora-effsam python=3.12 &amp;&amp; conda activate lora-effsam
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+pip install -e ".[dev]"
+
+bash scripts/fetch_efficientsam.sh   # EfficientSAM code and weights
+bash scripts/setup_data.sh           # Figshare dataset, about 830 MB
+lora-effsam verify-env</code></pre>
+    </div>
+    <div class="code">
+      <button type="button" class="copy" data-copy="runit">Copy</button>
+<pre id="runit"><code>SMOKE=1 bash scripts/run_pipeline.sh   # 1-epoch check of the whole pipeline, about 5 min
+bash scripts/run_pipeline.sh           # final model, seeds 42/1/2, about 7 h on an RTX 3060
+bash scripts/reproduce_results.sh      # rebuild every table, statistic and figure</code></pre>
+    </div>
+    <p class="fine">Each stage is also a subcommand: <code>lora-effsam train</code>, <code>evaluate</code>, <code>explainability</code> and more. See the <a href="https://github.com/FahimFBA/LoRA-EffSAM#readme">README</a>.</p>
+  </div>
+</section>
+
+<section class="split" id="cite">
+  <h2>Cite</h2>
+  <div>
+    <div class="code">
+      <button type="button" class="copy" data-copy="bib">Copy</button>
+<pre id="bib"><code>@unpublished{amin2026loraeffsam,
+  title  = {{LoRA-EffSAM}: Prompt-free brain tumor segmentation with a parameter-efficient {EfficientSAM}},
+  author = {Amin, Md. Fahim Bin and Khan, Israt Jahan and Juoairia, Adiba and Alam, Touhid and
+            Morol, Md Kishor and Liew, Tze Hui and Nandi, Dip},
+  year   = {2026},
+  note   = {Code: https://github.com/FahimFBA/LoRA-EffSAM}
+}</code></pre>
+    </div>
+    <p class="fine">The dataset is from Cheng et al. (Figshare brain-tumor dataset) and the encoder is <a href="https://github.com/yformer/EfficientSAM">EfficientSAM</a>. Please cite them too.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <p>LoRA-EffSAM is released under the Apache License 2.0.</p>
+  <p><a href="https://github.com/FahimFBA/LoRA-EffSAM">GitHub</a> <a href="https://github.com/FahimFBA/LoRA-EffSAM/blob/main/CHANGELOG.md">Changelog</a> <a href="https://github.com/FahimFBA/LoRA-EffSAM/blob/main/LICENSE">License</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
