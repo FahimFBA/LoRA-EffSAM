@@ -10,6 +10,15 @@ GitHub release notes.
 
 ## [Unreleased]
 
+### Added
+- Project website in `docs/`: abstract, method, interactive results chart, interpretation,
+  figures, run instructions and a copyable citation.
+- `.github/workflows/pages.yml` deploys `docs/` to GitHub Pages on every change to the site.
+
+### Changed
+- `CITATION.cff` and the README citation now point to the paper, with its full seven-author
+  list and title. The software authors in `CITATION.cff` are unchanged.
+
 ## [0.2.0] - 2026-10-31
 
 ### Added
